@@ -21,6 +21,7 @@ git clone https://huggingface.co/THUDM/chatglm3-6b-32k
 cp sft_run.sh LLaMA-Factory/
 cp data_xxx_train.json LLaMA-Factory/data/
 cp data_xxx_test.json LLaMA-Factory/data/
+cp dataset_info.json LLaMA-Factory/data/
 ```
 
 4. run SFT
