@@ -38,7 +38,7 @@ wget https://raw.githubusercontent.com/milvus-io/milvus/master/scripts/standalon
 bash standalone_embed.sh start
 ```
 
-3. run the demo (sandboxllm_rag_workflow_demo.ipynb)[sandboxllm_rag_workflow_demo.ipynb]
+3. run the demo [sandboxllm_rag_workflow_demo.ipynb](sandboxllm_rag_workflow_demo.ipynb)
 
 
 # 3. steps to run SFT
