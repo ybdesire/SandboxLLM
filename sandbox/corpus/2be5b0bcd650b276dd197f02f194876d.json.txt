@@ -1,0 +1,16 @@
+The sample filename is de86f66c5178a90d91d628c2aba7311fe775f60de42d5a895c8a8e0811d6a176, md5 is 2be5b0bcd650b276dd197f02f194876d, platform is windows, duration of the analysis is 82 seconds, machine name is win7_office2013, machine manager is KVM, and the report score is 0.8 points.
+
+The sample hits the following YARA rules:
+- The sample hits yara rule "powershell", description is "(no description)", and the hit content is ['UG93ZXJTaGVsbA==']
+
+
+The sample produces the following behavior during analysis:
+- create_file_intemp, the risk level is normal, the description is: Creates a writable file in a temporary directory. 
+- create_log_file, the risk level is normal, the description is: Creates install or setup log file. 
+- create_guard_page, the risk level is suspicious, the description is: Contains functionality to create guard pages, often used to hinder reverse engineering and debugging. 
+
+
+The sample dropped the following files during analysis:
+- The dropped file name is 049802f3d3a6803f_setdefaultwallpaper.log, filepath is C:\Windows\Temp\SetDefaultWallpaper.log, size is 201 bytes, md5 is 053a5156c13ad0a20a7aa42ca42dd16a, filetype is "ASCII text, with CRLF line terminators".
+
+

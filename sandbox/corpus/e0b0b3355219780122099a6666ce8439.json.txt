@@ -1,0 +1,22 @@
+The sample filename is 1e72c9d4f8b784a6598a718da2a2328b2ef28bcf433f95ab0929f5f1c48748f4, md5 is e0b0b3355219780122099a6666ce8439, platform is windows, duration of the analysis is 121 seconds, machine name is win7_office2013, machine manager is KVM, and the report score is 1.2 points.
+
+The sample produces the following behavior during analysis:
+- network_http, the risk level is normal, the description is: Performs some HTTP requests. The details are as follows:
+	[*] The request is: GET /~trevor/winx64.exe HTTP/1.1\r\nHost: 94.102.58.30\r\nConnection: Keep-Alive
+
+- ipurl_in_string, the risk level is normal, the description is: Found potential IP address or url in binary/memory. The details are as follows:
+	[*] The ioc is http://94.102.58.30/~trevor/winx64.exe
+	[*] The ioc is 94.102.58.30
+	[*] The ioc is https://psframework.org/documentation/commands/PSFramework/Register-PSFLoggingProvider
+
+- network_cnc_http, the risk level is suspicious, the description is: HTTP traffic contains suspicious features which may be indicative of malware related traffic. The details are as follows:
+	[*] The suspicious features is GET method with no useragent header, Connection to IP address, suspicious request is GET http://94.102.58.30/~trevor/winx64.exe
+
+- create_guard_page, the risk level is suspicious, the description is: Contains functionality to create guard pages, often used to hinder reverse engineering and debugging. 
+
+
+The sample network traffic information is as follows:
+- The session protocol is tcp, source address is 192.168.7.165, source port is 49181, target address is 94.102.58.30, target port is 80, initiating process is powershell.exe.
+- The session protocol is http, method is GET, version is 1.1, host is 94.102.58.30, port is 80, data is GET /~trevor/winx64.exe HTTP/1.1\r\nHost: 94.102.58.30\r\nConnection: Keep-Alive\r\n\r\n, uri is http://94.102.58.30/~trevor/winx64.exe, path is /~trevor/winx64.exe.
+
+

@@ -1,0 +1,59 @@
+The sample filename is d23c74a9c3251160051c1fb7f92349b5724be00e.bin, md5 is e7f6331f695ce1992adab166351bcd4a, platform is windows, duration of the analysis is 119 seconds, machine name is win7_office2013, machine manager is KVM, and the report score is 4.2 points.
+
+The sample produces the following behavior during analysis:
+- network_http, the risk level is normal, the description is: Performs some HTTP requests. The details are as follows:
+	[*] The request is: GET /bl5kfa HTTP/1.1\r\nHost: eastend.jp\r\nConnection: Keep-Alive
+	[*] The request is: GET /u8erijeq HTTP/1.1\r\nHost: bemnyc.com\r\nConnection: Keep-Alive
+
+- create_file_intemp, the risk level is normal, the description is: Creates a writable file in a temporary directory. 
+- creates_exe, the risk level is normal, the description is: Creates executable files on the filesystem. The details are as follows:
+	[*] The created file is c:\Users\Admin\AppData\Local\Temp\xbmc5a5z\xbmc5a5z.dll
+
+- getsysteminfo, the risk level is normal, the description is: Contains functionality to query system information. 
+- invoke_c#_compiler, the risk level is normal, the description is: Invokes the C# compiler. 
+- ipurl_in_string, the risk level is normal, the description is: Found potential IP address or url in binary/memory. The details are as follows:
+	[*] The ioc is http://habarimoto24.com/nh@http://fenett2018.com/dobgx@http://eastend.jp/bl5kfa@http://bemnyc.com/u8erijeq@http://abakus-biuro.net//a9zqemm
+
+- query_machine_timezone, the risk level is normal, the description is: Contains ability to query machine timezone. 
+- network_cnc_http, the risk level is suspicious, the description is: HTTP traffic contains suspicious features which may be indicative of malware related traffic. The details are as follows:
+	[*] The suspicious features is GET method with no useragent header, suspicious request is GET http://eastend.jp/bl5kfa
+	[*] The suspicious features is GET method with no useragent header, suspicious request is GET http://bemnyc.com/u8erijeq
+
+- create_guard_page, the risk level is suspicious, the description is: Contains functionality to create guard pages, often used to hinder reverse engineering and debugging. 
+- evasion_time, the risk level is suspicious, the description is: Potential time zone aware malware. 
+- process_martian, the risk level is suspicious, the description is: One or more martian processes was created. 
+- creates_user_folder_exe, the risk level is high-risk, the description is: Creates an executable file in a user folder. The details are as follows:
+	[*] The created file file is c:\Users\Admin\AppData\Local\Temp\xbmc5a5z\xbmc5a5z.dll
+
+- self_delete_bat, the risk level is high-risk, the description is: Deletes executed files from disk. The details are as follows:
+	[*] The self-deleted file is C:\Users\Admin\AppData\Local\Temp\xbmc5a5z\xbmc5a5z.cmdline
+
+
+
+The sample dropped the following files during analysis:
+- The dropped file name is f2c563322c4d6a4c_xbmc5a5z.0.cs, filepath is C:\Users\Admin\AppData\Local\Temp\xbmc5a5z\xbmc5a5z.0.cs, size is 1035 bytes, md5 is 5989018a4c0ad9cc8bc4cc1e5524186c, filetype is "Unicode text, UTF-8 (with BOM) text, with very long lines, with no line terminators".
+- The dropped file name is a8c731526676def9_xbmc5a5z.cmdline, filepath is C:\Users\Admin\AppData\Local\Temp\xbmc5a5z\xbmc5a5z.cmdline, size is 369 bytes, md5 is 0621b2dc1264526587f1be1a45035b67, filetype is "Unicode text, UTF-8 (with BOM) text, with very long lines, with no line terminators".
+- The dropped file name is ce57feaa34eb265c_xbmc5a5z.out, filepath is C:\Users\Admin\AppData\Local\Temp\xbmc5a5z\xbmc5a5z.out, size is 443 bytes, md5 is 89a0d8c865f0425a73a7540e4044b0eb, filetype is "Unicode text, UTF-8 (with BOM) text, with very long lines, with CRLF line terminators".
+- The dropped file name is 85406500577aa185_cscb4a059233a16442c81521b99e1e4e7e.tmp, filepath is c:\Users\Admin\AppData\Local\Temp\xbmc5a5z\CSCB4A059233A16442C81521B99E1E4E7E.TMP, size is 652 bytes, md5 is 04b1e7d46cced7ee4283070d746e39ec, filetype is "MSVC .res".
+- The dropped file name is a5042c7e7c859ce9_xbmc5a5z.dll, filepath is c:\Users\Admin\AppData\Local\Temp\xbmc5a5z\xbmc5a5z.dll, size is 4096 bytes, md5 is bb79d4938a55e880a28087291e47f93a, filetype is "PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly, for MS Windows".
+- The dropped file name is f4727a03d8e9adc3_xbmc5a5z.out, filepath is c:\users\admin\appdata\local\temp\xbmc5a5z\xbmc5a5z.out, size is 855 bytes, md5 is fd22eba02e423b34c4b094359500c4f4, filetype is "Unicode text, UTF-8 (with BOM) text, with very long lines, with CRLF, CR line terminators".
+
+
+The sample network traffic information is as follows:
+- The session protocol is tcp, source address is 192.168.7.174, source port is 49182, target address is 162.43.104.133, target port is 80, initiating process is powershell.exe.
+- The session protocol is tcp, source address is 192.168.7.174, source port is 49184, target address is 198.185.159.145, target port is 80, initiating process is powershell.exe.
+- The session protocol is http, method is GET, version is 1.1, host is eastend.jp, port is 80, data is GET /bl5kfa HTTP/1.1\r\nHost: eastend.jp\r\nConnection: Keep-Alive\r\n\r\n, uri is /bl5kfa, path is /bl5kfa.
+- The session protocol is http, method is GET, version is 1.1, host is bemnyc.com, port is 80, data is GET /u8erijeq HTTP/1.1\r\nHost: bemnyc.com\r\nConnection: Keep-Alive\r\n\r\n, uri is /u8erijeq, path is /u8erijeq.
+- The session protocol is dns, query domain is habarimoto24.com, type is A, answer is empty.
+- The session protocol is dns, query domain is fenett2018.com, type is A, answer is empty.
+- The session protocol is dns, query domain is eastend.jp, type is A, answers are as follows:
+	[*] answer is 162.43.104.133, type is A
+- The session protocol is dns, query domain is bemnyc.com, type is A, answers are as follows:
+	[*] answer is 198.185.159.145, type is A
+	[*] answer is 198.49.23.144, type is A
+	[*] answer is 198.49.23.145, type is A
+	[*] answer is 198.185.159.144, type is A
+- The session protocol is dns, query domain is abakus-biuro.net, type is A, answer is empty.
+- The session protocol is dns, query domain is yourmother4cancer.info, type is A, answer is empty.
+
+

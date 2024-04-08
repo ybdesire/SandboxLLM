@@ -1,0 +1,54 @@
+The sample filename is da2c5dee857bea5bc6f8fa696b0ad2b25fe268f4773ffd7b468a8e9802a362e3, md5 is bc38dc28ee84904c66a5655b02c7aea2, platform is windows, duration of the analysis is 133 seconds, machine name is win7_office2013, machine manager is KVM, and the report score is 4.4 points.
+
+The sample produces the following behavior during analysis:
+- network_http, the risk level is normal, the description is: Performs some HTTP requests. The details are as follows:
+	[*] The request is: GET /u8erijeq HTTP/1.1\r\nHost: bemnyc.com\r\nConnection: Keep-Alive
+
+- create_file_intemp, the risk level is normal, the description is: Creates a writable file in a temporary directory. 
+- creates_exe, the risk level is normal, the description is: Creates executable files on the filesystem. The details are as follows:
+	[*] The created file is c:\Users\Admin\AppData\Local\Temp\gndvu4bb\gndvu4bb.dll
+
+- getsysteminfo, the risk level is normal, the description is: Contains functionality to query system information. 
+- invoke_c#_compiler, the risk level is normal, the description is: Invokes the C# compiler. 
+- ipurl_in_string, the risk level is normal, the description is: Found potential IP address or url in binary/memory. The details are as follows:
+	[*] The ioc is http://habarimoto24.com/nh@http://fenett2018.com/dobgx@http://eastend.jp/bl5kfa@http://bemnyc.com/u8erijeq@http://abakus-biuro.net//a9zqemm
+
+- query_machine_timezone, the risk level is normal, the description is: Contains ability to query machine timezone. 
+- network_cnc_http, the risk level is suspicious, the description is: HTTP traffic contains suspicious features which may be indicative of malware related traffic. The details are as follows:
+	[*] The suspicious features is GET method with no useragent header, suspicious request is GET http://bemnyc.com/u8erijeq
+
+- create_guard_page, the risk level is suspicious, the description is: Contains functionality to create guard pages, often used to hinder reverse engineering and debugging. 
+- evasion_time, the risk level is suspicious, the description is: Potential time zone aware malware. 
+- creates_user_folder_exe, the risk level is high-risk, the description is: Creates an executable file in a user folder. The details are as follows:
+	[*] The created file file is c:\Users\Admin\AppData\Local\Temp\gndvu4bb\gndvu4bb.dll
+
+- process_martian, the risk level is high-risk, the description is: One or more martian processes was created. 
+- self_delete_bat, the risk level is high-risk, the description is: Deletes executed files from disk. The details are as follows:
+	[*] The self-deleted file is C:\Users\Admin\AppData\Local\Temp\gndvu4bb\gndvu4bb.cmdline
+
+
+
+The sample dropped the following files during analysis:
+- The dropped file name is f2c563322c4d6a4c_gndvu4bb.0.cs, filepath is C:\Users\Admin\AppData\Local\Temp\gndvu4bb\gndvu4bb.0.cs, size is 1035 bytes, md5 is 5989018a4c0ad9cc8bc4cc1e5524186c, filetype is "Unicode text, UTF-8 (with BOM) text, with very long lines, with no line terminators".
+- The dropped file name is 514d1775e96df441_gndvu4bb.cmdline, filepath is C:\Users\Admin\AppData\Local\Temp\gndvu4bb\gndvu4bb.cmdline, size is 369 bytes, md5 is 8fe624f15e91af0f494c987c3d3af24f, filetype is "Unicode text, UTF-8 (with BOM) text, with very long lines, with no line terminators".
+- The dropped file name is c6a747c1a08365ed_gndvu4bb.out, filepath is C:\Users\Admin\AppData\Local\Temp\gndvu4bb\gndvu4bb.out, size is 445 bytes, md5 is a49788d92a52fb1928dd69fb0d651f4a, filetype is "Unicode text, UTF-8 (with BOM) text, with very long lines, with CRLF line terminators".
+- The dropped file name is 0417cd88fd2d8feb_csc4ec2cd084e67483982d285952963989a.tmp, filepath is c:\Users\Admin\AppData\Local\Temp\gndvu4bb\CSC4EC2CD084E67483982D285952963989A.TMP, size is 652 bytes, md5 is dc9d6c1cd3a1cfa10d87a1642ae0dd16, filetype is "MSVC .res".
+- The dropped file name is c9c055a1290d6f73_gndvu4bb.dll, filepath is c:\Users\Admin\AppData\Local\Temp\gndvu4bb\gndvu4bb.dll, size is 4096 bytes, md5 is e123bde362e9e66cc85bde2a5fadf2aa, filetype is "PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly, for MS Windows".
+- The dropped file name is 939abf80f24d35fe_gndvu4bb.out, filepath is c:\users\admin\appdata\local\temp\gndvu4bb\gndvu4bb.out, size is 857 bytes, md5 is 9246adcd2bf85289cfb0b1404e498a8b, filetype is "Unicode text, UTF-8 (with BOM) text, with very long lines, with CRLF, CR line terminators".
+
+
+The sample network traffic information is as follows:
+- The session protocol is tcp, source address is 192.168.7.174, source port is 49188, target address is 198.185.159.145, target port is 80, initiating process is powershell.exe.
+- The session protocol is http, method is GET, version is 1.1, host is bemnyc.com, port is 80, data is GET /u8erijeq HTTP/1.1\r\nHost: bemnyc.com\r\nConnection: Keep-Alive\r\n\r\n, uri is http://bemnyc.com/u8erijeq, path is /u8erijeq.
+- The session protocol is dns, query domain is habarimoto24.com, type is A, answer is empty.
+- The session protocol is dns, query domain is fenett2018.com, type is A, answer is empty.
+- The session protocol is dns, query domain is eastend.jp, type is A, answer is empty.
+- The session protocol is dns, query domain is bemnyc.com, type is A, answers are as follows:
+	[*] answer is 198.185.159.145, type is A
+	[*] answer is 198.49.23.144, type is A
+	[*] answer is 198.49.23.145, type is A
+	[*] answer is 198.185.159.144, type is A
+- The session protocol is dns, query domain is abakus-biuro.net, type is A, answer is empty.
+- The session protocol is dns, query domain is yourmother4cancer.info, type is A, answer is empty.
+
+

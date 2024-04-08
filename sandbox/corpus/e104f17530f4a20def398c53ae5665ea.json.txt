@@ -1,0 +1,40 @@
+The sample filename is 8605c50d7c4cf2521547a4138d881617c4db48b2.bin, md5 is e104f17530f4a20def398c53ae5665ea, platform is windows, duration of the analysis is 108 seconds, machine name is win7_office2013, machine manager is KVM, and the report score is 1.2 points.
+
+The sample hits the following YARA rules:
+- The sample hits yara rule "vmdetect", description is "Possibly employs anti-virtualization techniques", and the hit content is ['Vk1YaA==']
+- The sample hits yara rule "IronTiger_ASPXSpy", description is "ASPXSpy detection. It might be used by other fraudsters", and the hit content is ['QVNwWHNQWQ==']
+- The sample hits yara rule "EzcobStrings", description is "Ezcob Identifying Strings", and the hit content is ['RXpjb2I=']
+- The sample hits yara rule "Ezcob", description is "Ezcob", and the hit content is []
+
+
+The sample produces the following behavior during analysis:
+- network_http, the risk level is normal, the description is: Performs some HTTP requests. The details are as follows:
+	[*] The request is: GET /bl5kfa HTTP/1.1\r\nHost: eastend.jp\r\nConnection: Keep-Alive
+	[*] The request is: GET /u8erijeq HTTP/1.1\r\nHost: bemnyc.com\r\nConnection: Keep-Alive
+
+- ipurl_in_string, the risk level is normal, the description is: Found potential IP address or url in binary/memory. The details are as follows:
+	[*] The ioc is http://habarimoto24.com/nh@http://fenett2018.com/dobgx@http://eastend.jp/bl5kfa@http://bemnyc.com/u8erijeq@http://abakus-biuro.net//a9zqemm
+
+- network_cnc_http, the risk level is suspicious, the description is: HTTP traffic contains suspicious features which may be indicative of malware related traffic. The details are as follows:
+	[*] The suspicious features is GET method with no useragent header, suspicious request is GET http://eastend.jp/bl5kfa
+	[*] The suspicious features is GET method with no useragent header, suspicious request is GET http://bemnyc.com/u8erijeq
+
+- create_guard_page, the risk level is suspicious, the description is: Contains functionality to create guard pages, often used to hinder reverse engineering and debugging. 
+
+
+The sample network traffic information is as follows:
+- The session protocol is tcp, source address is 192.168.7.168, source port is 49166, target address is 162.43.104.133, target port is 80, initiating process is powershell.exe.
+- The session protocol is tcp, source address is 192.168.7.168, source port is 49167, target address is 198.185.159.144, target port is 80, initiating process is powershell.exe.
+- The session protocol is http, method is GET, version is 1.1, host is eastend.jp, port is 80, data is GET /bl5kfa HTTP/1.1\r\nHost: eastend.jp\r\nConnection: Keep-Alive\r\n\r\n, uri is /bl5kfa, path is /bl5kfa.
+- The session protocol is http, method is GET, version is 1.1, host is bemnyc.com, port is 80, data is GET /u8erijeq HTTP/1.1\r\nHost: bemnyc.com\r\nConnection: Keep-Alive\r\n\r\n, uri is /u8erijeq, path is /u8erijeq.
+- The session protocol is dns, query domain is habarimoto24.com, type is A, answer is empty.
+- The session protocol is dns, query domain is fenett2018.com, type is A, answer is empty.
+- The session protocol is dns, query domain is eastend.jp, type is A, answers are as follows:
+	[*] answer is 162.43.104.133, type is A
+- The session protocol is dns, query domain is bemnyc.com, type is A, answers are as follows:
+	[*] answer is 198.185.159.144, type is A
+	[*] answer is 198.185.159.145, type is A
+	[*] answer is 198.49.23.145, type is A
+	[*] answer is 198.49.23.144, type is A
+
+

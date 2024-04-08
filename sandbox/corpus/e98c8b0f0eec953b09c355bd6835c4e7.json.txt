@@ -1,0 +1,13 @@
+The sample filename is 7e43f28b2855feb49aeb3cd30fcda0a2f44899f2.bin, md5 is e98c8b0f0eec953b09c355bd6835c4e7, platform is windows, duration of the analysis is 103 seconds, machine name is win7_office2013, machine manager is KVM, and the report score is 0.6 points.
+
+The sample hits the following YARA rules:
+- The sample hits yara rule "vmdetect", description is "Possibly employs anti-virtualization techniques", and the hit content is ['Vk1YaA==']
+- The sample hits yara rule "IronTiger_ASPXSpy", description is "ASPXSpy detection. It might be used by other fraudsters", and the hit content is ['QVNwWHNQWQ==']
+
+
+The sample produces the following behavior during analysis:
+- ipurl_in_string, the risk level is normal, the description is: Found potential IP address or url in binary/memory. The details are as follows:
+	[*] The ioc is http://habarimoto24.com/nh@http://fenett2018.com/dobgx@http://eastend.jp/bl5kfa@http://bemnyc.com/u8erijeq@http://abakus-biuro.net//a9zqemm
+
+- create_guard_page, the risk level is suspicious, the description is: Contains functionality to create guard pages, often used to hinder reverse engineering and debugging. 
+
