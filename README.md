@@ -19,3 +19,7 @@ Leveraging the LLM (Large Language Model) with Sandbox technology by SFT (superv
 - And the sample source code will be appended to the prompt if the sample is script, so LLM can read the source code for better analysis. 
 
 
+# Steps to run 
+
+1. Deploy sandbox Cuckoo as the steps here: 
+2. Deploy and run LLM as the steps here : [llm](llm/readme.md)
