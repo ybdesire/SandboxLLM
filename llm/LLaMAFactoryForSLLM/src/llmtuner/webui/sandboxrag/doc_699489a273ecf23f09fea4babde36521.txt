@@ -1,0 +1,34 @@
+The sample filename is ab9fca38bf5daab1d0c2e5efcdfdd85e9f4ea08d4c38e175154f7213112f4e11, md5 is 699489a273ecf23f09fea4babde36521, platform is windows, duration of the analysis is 114 seconds, machine name is win7_office2013, machine manager is KVM, and the report score is 3.6 points.
+
+The sample produces the following behavior during analysis:
+- create_file_intemp, the risk level is normal, the description is: Creates a writable file in a temporary directory. 
+- creates_exe, the risk level is normal, the description is: Creates executable files on the filesystem. The details are as follows:
+	[*] The created file is c:\Users\Admin\AppData\Local\Temp\zilkofux\zilkofux.dll
+
+- getsysteminfo, the risk level is normal, the description is: Contains functionality to query system information. 
+- invoke_c#_compiler, the risk level is normal, the description is: Invokes the C# compiler. 
+- query_machine_timezone, the risk level is normal, the description is: Contains ability to query machine timezone. 
+- create_guard_page, the risk level is suspicious, the description is: Contains functionality to create guard pages, often used to hinder reverse engineering and debugging. 
+- evasion_time, the risk level is suspicious, the description is: Potential time zone aware malware. 
+- creates_user_folder_exe, the risk level is high-risk, the description is: Creates an executable file in a user folder. The details are as follows:
+	[*] The created file file is c:\Users\Admin\AppData\Local\Temp\zilkofux\zilkofux.dll
+
+- process_martian, the risk level is high-risk, the description is: One or more martian processes was created. 
+- self_delete_bat, the risk level is high-risk, the description is: Deletes executed files from disk. The details are as follows:
+	[*] The self-deleted file is C:\Users\Admin\AppData\Local\Temp\zilkofux\zilkofux.cmdline
+
+
+
+The sample dropped the following files during analysis:
+- The dropped file name is b240a9bb4f72d886_zilkofux.0.cs, filepath is C:\Users\Admin\AppData\Local\Temp\zilkofux\zilkofux.0.cs, size is 557 bytes, md5 is 7319070c34daa5f6f2ece2dfc07119ee, filetype is "Unicode text, UTF-8 (with BOM) text, with very long lines".
+- The dropped file name is c6fc91e5b6d5391b_zilkofux.cmdline, filepath is C:\Users\Admin\AppData\Local\Temp\zilkofux\zilkofux.cmdline, size is 369 bytes, md5 is e807315f5fe9ff3cf2b05ef0efeb19f7, filetype is "Unicode text, UTF-8 (with BOM) text, with very long lines, with no line terminators".
+- The dropped file name is 955f70ea652c851f_zilkofux.out, filepath is C:\Users\Admin\AppData\Local\Temp\zilkofux\zilkofux.out, size is 445 bytes, md5 is 5c4e75ea4c29c427df546350f9a5c722, filetype is "Unicode text, UTF-8 (with BOM) text, with very long lines, with CRLF line terminators".
+- The dropped file name is 51f663012e3953d5_csc5696f1fe2da649dc9fc5816f5d65b326.tmp, filepath is c:\Users\Admin\AppData\Local\Temp\zilkofux\CSC5696F1FE2DA649DC9FC5816F5D65B326.TMP, size is 652 bytes, md5 is 277bd44b79aef3c2ccc013d856d3678a, filetype is "MSVC .res".
+- The dropped file name is ef8a6ee994950ce3_zilkofux.dll, filepath is c:\Users\Admin\AppData\Local\Temp\zilkofux\zilkofux.dll, size is 3584 bytes, md5 is ecc28dbe6e7a95ce17c1f9d4cd01e637, filetype is "PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly, for MS Windows".
+- The dropped file name is 13b9d99d97449e76_zilkofux.out, filepath is c:\users\admin\appdata\local\temp\zilkofux\zilkofux.out, size is 857 bytes, md5 is 38e7639431ec06059965d1151d976efd, filetype is "Unicode text, UTF-8 (with BOM) text, with very long lines, with CRLF, CR line terminators".
+
+
+The sample network traffic information is as follows:
+- The session protocol is tcp, source address is 192.168.7.176, source port is 49192, target address is 82.61.9.223, target port is 443, initiating process is powershell.exe.
+
+

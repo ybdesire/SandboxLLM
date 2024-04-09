@@ -1,0 +1,15 @@
+The sample filename is 8f7e73a29ab9ecd808316acd1a68efabd1c994a7295a9db6cc12a25a849362b7, md5 is 1c4989acfd741d3d1612b3495e087a2c, platform is windows, duration of the analysis is 124 seconds, machine name is win7_office2013, machine manager is KVM, and the report score is 1.8 points.
+
+The sample hits the following YARA rules:
+- The sample hits yara rule "embedded_win_api", description is "A non-Windows executable contains win32 API functions names", and the hit content is ['U2hlbGxFeGVjdXRl']
+- The sample hits yara rule "powershell", description is "(no description)", and the hit content is ['UG93ZXJTaGVsbA==', 'cG93ZXJzaGVsbA==']
+
+
+The sample produces the following behavior during analysis:
+- create_guard_page, the risk level is suspicious, the description is: Contains functionality to create guard pages, often used to hinder reverse engineering and debugging. 
+- stealth_window, the risk level is suspicious, the description is: A process created a hidden window. 
+- long_command_line, the risk level is suspicious, the description is: Very long command line found. 
+- martian_command_process, the risk level is high-risk, the description is: A command shell or script process was created by an unexpected parent process. 
+
+
+

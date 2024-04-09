@@ -51,7 +51,8 @@ def create_ui(demo_mode: bool = False) -> gr.Blocks:
 def create_web_demo() -> gr.Blocks:
     engine = Engine(pure_chat=True)
 
-    with gr.Blocks(title="Web Demo", css=CSS) as demo:
+    with gr.Blocks(title="SandboxLLM", css=CSS) as demo:
+        gr.HTML("<h1><center>SandboxLLM: Integration of Sandbox and LLM for Advanced Malware Sample Analysis</center></h1>") 
         lang = gr.Dropdown(choices=["en", "zh"])
         engine.manager.add_elems("top", dict(lang=lang))
 

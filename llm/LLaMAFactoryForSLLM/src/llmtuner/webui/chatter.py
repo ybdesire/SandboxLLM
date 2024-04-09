@@ -10,7 +10,7 @@ from ..data import Role
 from ..extras.misc import torch_gc
 from .common import get_save_dir
 from .locales import ALERTS
-
+from llmtuner.webui.sandboxrag.queryprocess import get_processed_query
 
 if TYPE_CHECKING:
     from ..chat import BaseEngine
@@ -99,7 +99,9 @@ class WebChatModel(ChatModel):
         role: str,
         query: str,
     ) -> Tuple[List[List[Optional[str]]], List[Dict[str, str]], str]:
-        return chatbot + [[query, None]], messages + [{"role": role, "content": query}], ""
+        raw_query = query
+        query = get_processed_query(query)
+        return chatbot + [[raw_query, None]], messages + [{"role": role, "content": raw_query}], ""
 
     def stream(
         self,
@@ -113,6 +115,11 @@ class WebChatModel(ChatModel):
     ) -> Generator[Tuple[List[List[Optional[str]]], List[Dict[str, str]]], None, None]:
         chatbot[-1][1] = ""
         response = ""
+        for i in range(len(messages)):
+            if 'content' in messages[i]:
+                messages[i]['content'] = get_processed_query(messages[i]['content'])
+        print('messages={0}'.format(messages))
+        
         for new_text in self.stream_chat(
             messages, system, tools, max_new_tokens=max_new_tokens, top_p=top_p, temperature=temperature
         ):
