@@ -1,3 +1,8 @@
+# Recommend
+
+1. python : 3.10
+
+
 # 1. steps for deploying llm as server rest-api
 
 1. download SFT/deployment framework
