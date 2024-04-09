@@ -21,5 +21,5 @@ please refer to here for the demo code and output : [sandboxllm_rag_workflow_dem
 
 # Steps to run 
 
-1. Deploy sandbox Cuckoo as the steps here: 
-2. Deploy and run LLM as the steps here : [llm](llm/readme.md)
+1. Deploy sandbox Cuckoo as the steps [here](sandbox/readme.md)
+2. Deploy and run LLM as the steps [here](llm/readme.md)
