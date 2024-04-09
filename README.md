@@ -23,3 +23,12 @@ please refer to here for the demo code and output : [sandboxllm_rag_workflow_dem
 
 1. Deploy sandbox Cuckoo as the steps [here](sandbox/readme.md)
 2. Deploy and run LLM as the steps [here](llm/readme.md)
+
+
+# License
+This repository is licensed under the MIT License.
+
+Please follow other model/project licenses to use the corresponding model weights and other open source project : [ChatGLM3](https://github.com/THUDM/ChatGLM3/blob/main/LICENSE), [Qwen](https://github.com/QwenLM/Qwen/blob/main/Tongyi%20Qianwen%20LICENSE%20AGREEMENT), [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
+
+
+
