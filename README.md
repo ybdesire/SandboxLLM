@@ -5,7 +5,7 @@ please refer to here for the demo code and output : [sandboxllm_rag_workflow_dem
 
 # Architecture
 
-![alt tag](llm/sandboxllm_design.png)
+![alt tag](llm/pics/sandboxllm_design.png)
 
 1. LLM supervised fine-tuning process
 - construct security domain knowledge dataset (e.g., APT knowledge) and malware analysis pattern dataset (e.g., conclusions and evidential reasoning derived from manual sample analysis by security researchers). And the open-source LLM is selected as base model for SFT since it has good basic capability with long token support for English and Chinese language. So the LLM can be enabled to acquire knowledge and analytical methods specific to the security domain.
@@ -17,6 +17,25 @@ please refer to here for the demo code and output : [sandboxllm_rag_workflow_dem
 - RAG based LLM querying.
 - It retrieve text from vector database by user query vectorization then merge the text with user query by prompt to get response from LLM.
 - And the sample source code will be appended to the prompt if the sample is script, so LLM can read the source code for better analysis. 
+
+# Sample Analysis Examples
+
+A. SandboxLLM UI demo
+![alt tag](llm/pics/sandboxllm_full_ui_example.png)
+
+B. Sample risk behavior analysis by LLM
+![alt tag](llm/pics/sandboxllm_ui_example01.png)
+
+C. Sample behavior analysis and security knowledge Q&A
+![alt tag](llm/pics/sandboxllm_ui_example02.png)
+
+D. Sample network behavior analysis by LLM
+![alt tag](llm/pics/sandboxllm_ui_example03.png)
+
+E. Malicious code analysis by LLM
+![alt tag](llm/pics/sandboxllm_ui_example04.png)
+
+
 
 
 # Steps to run 
