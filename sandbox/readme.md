@@ -4,6 +4,11 @@ We asked sandboxllm 61 questions and the results are as follows:
 - Passed: 58
 - Pass rate: 95.08%
 
+We can run the test by:
+```
+python3 util_test.py
+```
+
 The following is a detailed list of questions, also you can also view it in result.csv:
 | Corpus Filename                                  | Question                                                     | Answer                                                       | Expected answer                                                       | Passed? |
 | ----------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- |
