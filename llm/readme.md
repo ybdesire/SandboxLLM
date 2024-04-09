@@ -78,3 +78,7 @@ bash sft_run.sh
 cd LLaMAFactoryForSLLM
 bash web_sandbox_llm.sh
 ```
+
+# Other
+
+LLaMAFactoryForSLLM was originally derived from the code at https://github.com/hiyouga/LLaMA-Factory, but we have trimmed it down by removing some unnecessary components. Additionally, we have modified this open-source project by incorporating the code for the RAG section. 
