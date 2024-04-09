@@ -1,4 +1,4 @@
-# Questions test
+# Question & Answer test
 We asked sandboxllm 61 questions and the results are as follows:
 - Total: 61
 - Passed: 58
