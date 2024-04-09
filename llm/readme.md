@@ -5,9 +5,10 @@
 
 # 1. steps for deploying llm as server rest-api
 
-1. download SFT/deployment framework
+1.  SFT/deployment framework LLaMA-Factory
 ```
-git clone https://github.com/hiyouga/LLaMA-Factory.git`
+cd LLaMAFactoryForSLLM
+pip install -r requirements.txt
 ```
 
 2. download base LLM
@@ -18,15 +19,14 @@ git clone https://huggingface.co/THUDM/chatglm3-6b-32k
 
 3. copy api shell script
 ```
-cp api_raw_llm.sh LLaMA-Factory/.
+cp api_raw_llm.sh LLaMAFactoryForSLLM/.
 ```
 
 4. start the server api
 ```
-cd LLaMA-Factory
+cd LLaMAFactoryForSLLM
 bash api_raw_llm.sh
 ```
-
 
 
 # 2. steps for RAG
@@ -48,9 +48,9 @@ bash standalone_embed.sh start
 
 # 3. steps to run SFT
 
-1. download SFT framework
+1. SFT framework
 ```
-git clone https://github.com/hiyouga/LLaMA-Factory.git`
+cd LLaMAFactoryForSLLM
 ```
 
 2. download base LLM
@@ -70,4 +70,11 @@ cp dataset_info.json LLaMA-Factory/data/
 4. run SFT
 ```
 bash sft_run.sh
+```
+
+# 4. steps to start the SandboxLLM UI
+
+```
+cd LLaMAFactoryForSLLM
+bash web_sandbox_llm.sh
 ```
