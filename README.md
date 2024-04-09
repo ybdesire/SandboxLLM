@@ -44,6 +44,13 @@ E. Malicious code analysis by LLM
 1. Deploy sandbox Cuckoo as the steps [here](sandbox/readme.md)
 2. Deploy and run LLM as the steps [here](llm/readme.md)
 
+# Evaluation
+
+1. Q&A accuracy by LLM RAG: 95.08%
+- [here](https://github.com/ybdesire/SandboxLLM/blob/main/sandbox/readme.md#question--answer-test) for more details about the evaluation code and result
+
+2. LLM Predict accuracy : TBD
+
 
 # License
 This repository is licensed under the MIT License.
