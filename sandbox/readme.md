@@ -18,6 +18,31 @@ $ . venv/bin/activate
 ```
 sudo pip install --ignore-installed dpkt
 ```
+5. install tcpdump
+```
+sudo setcap cap_net_raw,cap_net_admin=eip /usr/sbin/tcpdump
+getcap /usr/sbin/tcpdump
+```
+6. install pydeep
+```
+sudo wget http://sourceforge.net/projects/ssdeep/files/ssdeep-2.13/ssdeep-2.13.tar.gz/download -O ssdeep-2.13.tar.gz --no-check-certificate
+tar -zxvf ssdeep-2.13.tar.gz
+cd ssdeep-2.13/
+sudo ./configure
+sudo make
+sudo make install
+ssdeep -V
+cd ../
+```
+7. install volatility
+```
+git clone https://github.com/volatilityfoundation/volatility.git
+cd volatility
+sudo python setup.py build
+pip install pycrypto distorm3
+sudo python setup.py install
+```
+
 # 2. Create a virtual machine
 1. Use Windows 7 (x64) or Windows 10 (x64) image, we can download them from [MSDN-ITellMe](https://msdn.itellyou.cn/).
 2. After install Windows, the most important things to do are to turn off Windows Firewall and Automatic Updates. These will affect the behavior of the malware and thus Cuckoo's analysis of these behaviors. Then disable UAC and cancel administrator account password.
