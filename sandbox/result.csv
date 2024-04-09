@@ -1,0 +1,62 @@
+filename,question,answer,expect,passed?
+1c4989acfd741d3d1612b3495e087a2c.json.txt,"Does this sample hit the Yara rule? Please answer no or yes.","Yes.","True",yes
+1c4989acfd741d3d1612b3495e087a2c.json.txt,"Does this sample hit the IDS traffic rule? Please answer no or yes.","No","False",yes
+1c4989acfd741d3d1612b3495e087a2c.json.txt,"Does this sample have high-risk behaviors? Please answer no or yes.","Yes.","True",yes
+1c4989acfd741d3d1612b3495e087a2c.json.txt,"Does this sample dropped files? Please answer no or yes.","This question can't found from report.",yes
+1c4989acfd741d3d1612b3495e087a2c.json.txt,"What is the md5 of this sample?","The md5 of this sample is 1c4989acfd741d3d1612b3495e087a2c.","['1c4989acfd741d3d1612b3495e087a2c']",yes
+1c4989acfd741d3d1612b3495e087a2c.json.txt,"How long does it take to analyze this sample?","It takes 124 seconds to analyze this sample.","['124']",yes
+1c4989acfd741d3d1612b3495e087a2c.json.txt,"Which Yara rules does this sample hit?","This sample hits the following YARA rules:\n- ""embedded_win_api"", which matches due to the presence of win32 API function names like ""U2hlbGxFeGVjdXRl"".\n- ""powershell"", which matches without a specific description provided. The hit content includes base64-encoded strings 'UG93ZXJTaGVsbA==' and 'cG93ZXJzaGVsbA==', which are likely decodings of ""PowerShell"" in different capitalization formats.","['embedded_win_api', 'powershell']",yes
+1c4989acfd741d3d1612b3495e087a2c.json.txt,"What are the high-risk behaviors of this sample?","The high-risk behavior of this sample is ""martian_command_process"", which means a command shell or script process was created by an unexpected parent process.","['martian_command_process']",yes
+1c4989acfd741d3d1612b3495e087a2c.json.txt,"What are the suspicious behaviors of this sample?","The suspicious behaviors of this sample include creating guard pages, creating a hidden window, using a very long command line, and a command shell or script process being created by an unexpected parent process.","['guard page', 'hidden window', 'long command line']",yes
+2be5b0bcd650b276dd197f02f194876d.json.txt,"Does this sample hit the Yara rule? Please answer no or yes.","Yes.","True",yes
+2be5b0bcd650b276dd197f02f194876d.json.txt,"Does this sample hit the IDS traffic rule? Please answer no or yes.","No","False",yes
+2be5b0bcd650b276dd197f02f194876d.json.txt,"Does this sample have high-risk behaviors? Please answer no or yes.","No","False",yes
+2be5b0bcd650b276dd197f02f194876d.json.txt,"Does this sample dropped files? Please answer no or yes.","yes","True",yes
+2be5b0bcd650b276dd197f02f194876d.json.txt,"What is the md5 of this sample?","The md5 of this sample is 2be5b0bcd650b276dd197f02f194876d.","['2be5b0bcd650b276dd197f02f194876d']",yes
+2be5b0bcd650b276dd197f02f194876d.json.txt,"How long does it take to analyze this sample?","It takes 82 seconds to analyze this sample.","['82']",yes
+2be5b0bcd650b276dd197f02f194876d.json.txt,"Which Yara rules does this sample hit?","The sample hits the following YARA rule: ""powershell"".","['powershell']",yes
+2be5b0bcd650b276dd197f02f194876d.json.txt,"What are the high-risk behaviors of this sample?","The sample does not exhibit any high-risk behaviors. The reported behaviors are either normal or suspicious: create_file_intemp (normal), create_log_file (normal), and create_guard_page (suspicious).","['does not']",yes
+2be5b0bcd650b276dd197f02f194876d.json.txt,"What are the suspicious behaviors of this sample?","The suspicious behavior of this sample includes creating guard pages, which is often used to hinder reverse engineering and debugging.","['guard page']",yes
+2be5b0bcd650b276dd197f02f194876d.json.txt,"What files does this sample drop?","This sample drops a file named 049802f3d3a6803f_setdefaultwallpaper.log, located in C:\Windows\Temp\SetDefaultWallpaper.log, with a size of 201 bytes and MD5 hash 053a5156c13ad0a20a7aa42ca42dd16a. The file type is identified as ""ASCII text, with CRLF line terminators"".","['049802f3d3a6803f']",yes
+24c94559b2c3b1a22b0b8a4b6447df2d.json.txt,"Does this sample hit the Yara rule? Please answer no or yes.","Yes.","True",yes
+24c94559b2c3b1a22b0b8a4b6447df2d.json.txt,"Does this sample hit the IDS traffic rule? Please answer no or yes.","No","False",yes
+24c94559b2c3b1a22b0b8a4b6447df2d.json.txt,"Does this sample have high-risk behaviors? Please answer no or yes.","Yes","True",yes
+24c94559b2c3b1a22b0b8a4b6447df2d.json.txt,"Does this sample dropped files? Please answer no or yes.","yes","True",yes
+24c94559b2c3b1a22b0b8a4b6447df2d.json.txt,"Does this sample have network behavior? Please answer no or yes.","Yes.","True",yes
+24c94559b2c3b1a22b0b8a4b6447df2d.json.txt,"What is the md5 of this sample?","The md5 of this sample is 24c94559b2c3b1a22b0b8a4b6447df2d.","['24c94559b2c3b1a22b0b8a4b6447df2d']",yes
+24c94559b2c3b1a22b0b8a4b6447df2d.json.txt,"How long does it take to analyze this sample?","It takes 119 seconds to analyze this sample.","['119']",yes
+24c94559b2c3b1a22b0b8a4b6447df2d.json.txt,"Which Yara rules does this sample hit?","The sample hits the following YARA rules:\n- The sample hits yara rule ""powershell"", description is ""(no description)"", and the hit content is ['UG93ZXJzaGVsbA==']","['powershell']",yes
+24c94559b2c3b1a22b0b8a4b6447df2d.json.txt,"What are the high-risk behaviors of this sample?","The high-risk behaviors of this sample include: dropper, which indicates the sample drops a binary and executes it; martian_command_process, which means a command shell or script process was created by an unexpected parent process; and persistence_autorun_task, indicating the sample scheduled a start by creating scheduled tasks.","['a binary', 'command shell', 'scheduled task']",yes
+24c94559b2c3b1a22b0b8a4b6447df2d.json.txt,"What files does this sample drop?","The sample drops the following files: ddf3085658167a79_hotline.vbs, e72b788676bbe447_ubisoft64.vbs, 34944b82a449df4f_report.ps1, and 1ef07109704d9ab0_ubisoft64.ps1.","['ddf3085658167a79', 'e72b788676bbe447', '34944b82a449df4f', '1ef07109704d9ab0']",yes
+24c94559b2c3b1a22b0b8a4b6447df2d.json.txt,"What is the most common extension for the files dropped by this sample?",".vbs","['ps1']",no
+24c94559b2c3b1a22b0b8a4b6447df2d.json.txt,"Which IP addresses was visited by this sample?","45.154.98.194","['45.154.98.194']",yes
+24c94559b2c3b1a22b0b8a4b6447df2d.json.txt,"Which domain names are queried in this sample?","The domain name queried in this sample is services.work.gd.","['services.work.gd']",yes
+24c94559b2c3b1a22b0b8a4b6447df2d.json.txt,"What are the query results of services.work.gd?","The query result of services.work.gd is 45.154.98.194.","['45.154.98.194']",yes
+699489a273ecf23f09fea4babde36521.json.txt,"Does this sample hit the Yara rule? Please answer no or yes.","This question can't found from report.",yes
+699489a273ecf23f09fea4babde36521.json.txt,"Does this sample hit the IDS traffic rule? Please answer no or yes.","No","False",yes
+699489a273ecf23f09fea4babde36521.json.txt,"Does this sample have high-risk behaviors? Please answer no or yes.","Yes.","True",yes
+699489a273ecf23f09fea4babde36521.json.txt,"Does this sample dropped files? Please answer no or yes.","yes","True",yes
+699489a273ecf23f09fea4babde36521.json.txt,"Does this sample have network behavior? Please answer no or yes.","yes","True",yes
+699489a273ecf23f09fea4babde36521.json.txt,"What is the md5 of this sample?","The md5 of this sample is 699489a273ecf23f09fea4babde36521.","['699489a273ecf23f09fea4babde36521']",yes
+699489a273ecf23f09fea4babde36521.json.txt,"How long does it take to analyze this sample?","The analysis duration is 114 seconds.","['114']",yes
+699489a273ecf23f09fea4babde36521.json.txt,"What are the high-risk behaviors of this sample?","The high-risk behaviors of this sample include: creates_user_folder_exe, process_martian, and self_delete_bat.","['creates_user_folder_exe', 'process_martian', 'self_delete_bat']",yes
+699489a273ecf23f09fea4babde36521.json.txt,"What files does this sample drop?","The sample drops the following files:\n- b240a9bb4f72d886_zilkofux.0.cs\n- c6fc91e5b6d5391b_zilkofux.cmdline\n- 955f70ea652c851f_zilkofux.out\n- 51f663012e3953d5_csc5696f1fe2da649dc9fc5816f5d65b326.tmp\n- ef8a6ee994950ce3_zilkofux.dll\n- 13b9d99d97449e76_zilkofux.out","['c6fc91e5b6d5391b', '955f70ea652c851f', '51f663012e3953d5', 'ef8a6ee994950ce3', '13b9d99d97449e76']",yes
+699489a273ecf23f09fea4babde36521.json.txt,"What is this sample self-deleting file?","The sample self-deletes the file C:\Users\Admin\AppData\Local\Temp\zilkofux\zilkofux.cmdline.","['zilkofux.cmdline']",yes
+699489a273ecf23f09fea4babde36521.json.txt,"What is the file created by this sample in the user directory?","The sample creates an executable file named ""zilkofux.dll"" in the user directory. The full path of the file is ""c:\Users\Admin\AppData\Local\Temp\zilkofux\zilkofux.dll"".","['zilkofux.dll']",yes
+699489a273ecf23f09fea4babde36521.json.txt,"Which IP addresses was visited by this sample?","The sample visited the IP address 82.61.9.223.","['82.61.9.223']",yes
+699489a273ecf23f09fea4babde36521.json.txt,"What is the protocol between the sample and 82.61.9.223?","The protocol between the sample and 82.61.9.223 is tcp.","['tcp']",yes
+bc38dc28ee84904c66a5655b02c7aea2.json.txt,"Does this sample hit the Yara rule? Please answer no or yes.","This question can't found from report.",yes
+bc38dc28ee84904c66a5655b02c7aea2.json.txt,"Does this sample hit the IDS traffic rule? Please answer no or yes.","Yes.","False",no
+bc38dc28ee84904c66a5655b02c7aea2.json.txt,"Does this sample have high-risk behaviors? Please answer no or yes.","yes","True",yes
+bc38dc28ee84904c66a5655b02c7aea2.json.txt,"Does this sample dropped files? Please answer no or yes.","yes","True",yes
+bc38dc28ee84904c66a5655b02c7aea2.json.txt,"Does this sample have network behavior? Please answer no or yes.","yes","True",yes
+bc38dc28ee84904c66a5655b02c7aea2.json.txt,"What is the md5 of this sample?","The md5 of this sample is bc38dc28ee84904c66a5655b02c7aea2.","['bc38dc28ee84904c66a5655b02c7aea2']",yes
+bc38dc28ee84904c66a5655b02c7aea2.json.txt,"How long does it take to analyze this sample?","The analysis of this sample takes 133 seconds.","['133']",yes
+bc38dc28ee84904c66a5655b02c7aea2.json.txt,"What is the machine name of the virtual machine","The machine name is win7_office2013.","['win7_office2013']",yes
+bc38dc28ee84904c66a5655b02c7aea2.json.txt,"What are the high-risk behaviors of this sample?","The high-risk behaviors of this sample include: creating an executable file in a user folder, creating martian processes, and deleting executed files from disk.","['executable file', 'martian processes', 'delete', 'executed files']",no
+bc38dc28ee84904c66a5655b02c7aea2.json.txt,"What files does this sample drop?","This sample drops the following files during analysis:\n- f2c563322c4d6a4c_gndvu4bb.0.cs\n- 514d1775e96df441_gndvu4bb.cmdline\n- c6a747c1a08365ed_gndvu4bb.out\n- 0417cd88fd2d8feb_csc4ec2cd084e67483982d285952963989a.tmp\n- c9c055a1290d6f73_gndvu4bb.dll\n- 939abf80f24d35fe_gndvu4bb.out","['f2c563322c4d6a4c', '514d1775e96df441', 'c6a747c1a08365ed', '0417cd88fd2d8feb', 'c9c055a1290d6f73', '939abf80f24d35fe']",yes
+bc38dc28ee84904c66a5655b02c7aea2.json.txt,"What is this sample self-deleting file?","The sample self-deleting file is C:\Users\Admin\AppData\Local\Temp\gndvu4bb\gndvu4bb.cmdline.","['gndvu4bb.cmdline']",yes
+bc38dc28ee84904c66a5655b02c7aea2.json.txt,"What is the file created by this sample in the user directory?","The file created by this sample in the user directory is c:\Users\Admin\AppData\Local\Temp\gndvu4bb\gndvu4bb.dll.","['gndvu4bb.dll']",yes
+bc38dc28ee84904c66a5655b02c7aea2.json.txt,"Which IP and domain was visited by this sample?","The sample visited the IP 198.185.159.145 and the domain bemnyc.com.","['198.185.159.145', 'bemnyc.com']",yes
+bc38dc28ee84904c66a5655b02c7aea2.json.txt,"What is the protocol between the sample and bemnyc.com?","The protocol between the sample and bemnyc.com is HTTP.","['http']",yes
+bc38dc28ee84904c66a5655b02c7aea2.json.txt,"Which dns query IP of the domain: bemnyc.com did the sample finally choose to establish a session with?","The sample chose the IP 198.185.159.145 to establish a session with the domain bemnyc.com.","['198.185.159.145']",yes
