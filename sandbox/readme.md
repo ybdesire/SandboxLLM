@@ -1,16 +1,16 @@
-# Test result
+# Questions test
 We asked sandboxllm 61 questions and the results are as follows:
 - Total: 61
 - Passed: 58
 - Pass rate: 95.08%
 
-The following is a detailed list of questions:
+The following is a detailed list of questions, also you can also view it in result.csv:
 | Corpus Filename                                  | Question                                                     | Answer                                                       | Expected answer                                                       | Passed? |
 | ----------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- |
 | 1c4989acfd741d3d1612b3495e087a2c.json.txt | Does this sample hit the Yara rule? Please answer no or yes. | Yes.                                                         | TRUE                                                         | yes   |
 | 1c4989acfd741d3d1612b3495e087a2c.json.txt | Does this sample hit the IDS traffic rule? Please answer no or yes. | No                                                           | FALSE                                                        | yes   |
 | 1c4989acfd741d3d1612b3495e087a2c.json.txt | Does this sample have high-risk behaviors? Please answer no or yes. | Yes.                                                         | TRUE                                                         | yes   |
-| 1c4989acfd741d3d1612b3495e087a2c.json.txt | Does this sample dropped files? Please answer no or yes.     | This question鏃犳硶浠庢姤鍛婁腑鎵惧埌銆?,False"              | yes                                                          |       |
+| 1c4989acfd741d3d1612b3495e087a2c.json.txt | Does this sample dropped files? Please answer no or yes.     | This question can not found in report.             | yes                                                          |       |
 | 1c4989acfd741d3d1612b3495e087a2c.json.txt | What is the md5 of this sample?                              | The md5 of this sample is 1c4989acfd741d3d1612b3495e087a2c.  | ['1c4989acfd741d3d1612b3495e087a2c']                         | yes   |
 | 1c4989acfd741d3d1612b3495e087a2c.json.txt | How long does it take to analyze this sample?                | It takes 124 seconds to analyze this sample.                 | ['124']                                                      | yes   |
 | 1c4989acfd741d3d1612b3495e087a2c.json.txt | Which Yara rules does this sample hit?                       | This sample hits the following YARA rules:\n-  "embedded_win_api", which matches due to the presence of win32 API  function names like "U2hlbGxFeGVjdXRl".\n- "powershell",  which matches without a specific description provided. The hit content  includes base64-encoded strings 'UG93ZXJTaGVsbA==' and 'cG93ZXJzaGVsbA==',  which are likely decodings of "PowerShell" in different  capitalization formats. | ['embedded_win_api', 'powershell']                           | yes   |
@@ -40,7 +40,7 @@ The following is a detailed list of questions:
 | 24c94559b2c3b1a22b0b8a4b6447df2d.json.txt | Which IP addresses was visited by this sample?               | 45.154.98.194                                                | ['45.154.98.194']                                            | yes   |
 | 24c94559b2c3b1a22b0b8a4b6447df2d.json.txt | Which domain names are queried in this sample?               | The domain name queried in this sample is services.work.gd.  | ['services.work.gd']                                         | yes   |
 | 24c94559b2c3b1a22b0b8a4b6447df2d.json.txt | What are the query results of services.work.gd?              | The query result of services.work.gd is 45.154.98.194.       | ['45.154.98.194']                                            | yes   |
-| 699489a273ecf23f09fea4babde36521.json.txt | Does this sample hit the Yara rule? Please answer no or yes. | This question鏃犳硶浠庢姤鍛婁腑鎵惧埌銆?,False"              | yes                                                          |       |
+| 699489a273ecf23f09fea4babde36521.json.txt | Does this sample hit the Yara rule? Please answer no or yes. | This question can not found in report.              | yes                                                          |       |
 | 699489a273ecf23f09fea4babde36521.json.txt | Does this sample hit the IDS traffic rule? Please answer no or yes. | No                                                           | FALSE                                                        | yes   |
 | 699489a273ecf23f09fea4babde36521.json.txt | Does this sample have high-risk behaviors? Please answer no or yes. | Yes.                                                         | TRUE                                                         | yes   |
 | 699489a273ecf23f09fea4babde36521.json.txt | Does this sample dropped files? Please answer no or yes.     | yes                                                          | TRUE                                                         | yes   |
@@ -53,7 +53,7 @@ The following is a detailed list of questions:
 | 699489a273ecf23f09fea4babde36521.json.txt | What is the file created by this sample in the user directory? | The sample creates an executable file named "zilkofux.dll" in  the user directory. The full path of the file is  "c:\Users\Admin\AppData\Local\Temp\zilkofux\zilkofux.dll". | ['zilkofux.dll']                                             | yes   |
 | 699489a273ecf23f09fea4babde36521.json.txt | Which IP addresses was visited by this sample?               | The sample visited the IP address 82.61.9.223.               | ['82.61.9.223']                                              | yes   |
 | 699489a273ecf23f09fea4babde36521.json.txt | What is the protocol between the sample and 82.61.9.223?     | The protocol between the sample and 82.61.9.223 is tcp.      | ['tcp']                                                      | yes   |
-| bc38dc28ee84904c66a5655b02c7aea2.json.txt | Does this sample hit the Yara rule? Please answer no or yes. | This question鏃犳硶浠庢姤鍛婁腑鎵惧埌銆?,False"              | yes                                                          |       |
+| bc38dc28ee84904c66a5655b02c7aea2.json.txt | Does this sample hit the Yara rule? Please answer no or yes. | This question can not found in report.              | yes                                                          |       |
 | bc38dc28ee84904c66a5655b02c7aea2.json.txt | Does this sample hit the IDS traffic rule? Please answer no or yes. | Yes.                                                         | FALSE                                                        | no    |
 | bc38dc28ee84904c66a5655b02c7aea2.json.txt | Does this sample have high-risk behaviors? Please answer no or yes. | yes                                                          | TRUE                                                         | yes   |
 | bc38dc28ee84904c66a5655b02c7aea2.json.txt | Does this sample dropped files? Please answer no or yes.     | yes                                                          | TRUE                                                         | yes   |
@@ -69,8 +69,8 @@ The following is a detailed list of questions:
 | bc38dc28ee84904c66a5655b02c7aea2.json.txt | What is the protocol between the sample and bemnyc.com?      | The protocol between the sample and bemnyc.com is HTTP.      | ['http']                                                     | yes   |
 | bc38dc28ee84904c66a5655b02c7aea2.json.txt | Which dns query IP of the domain: bemnyc.com did the sample finally  choose to establish a session with? | The sample chose the IP 198.185.159.145 to establish a session with the  domain bemnyc.com. | ['198.185.159.145']                                          | yes   |
 
-
-# 1. Install cuckoo
+# How to build
+## 1. Install cuckoo
 1. Create a new user
 ```
 $ sudo adduser cuckoo
@@ -115,7 +115,7 @@ pip install pycrypto distorm3
 sudo python setup.py install
 ```
 
-# 2. Create a virtual machine
+## 2. Create a virtual machine
 1. Use Windows 7 (x64) or Windows 10 (x64) image, we can download them from [MSDN-ITellMe](https://msdn.itellyou.cn/).
 2. After install Windows, the most important things to do are to turn off Windows Firewall and Automatic Updates. These will affect the behavior of the malware and thus Cuckoo's analysis of these behaviors. Then disable UAC and cancel administrator account password.
 3. As of version 0.4, it is able to interact with Cuckoo via the XMLRPC protocol. See details: [cuckoo-network](https://cuckoo-sandbox.readthedocs.io/zh-cn/latest/installation/guest/network.html)
@@ -129,12 +129,12 @@ and snapshot can be shut down and restored with the following commands:
 $ VBoxManage controlvm "<Name of VM>" poweroff
 $ VBoxManage snapshot "<Name of VM>" restorecurrent
 ```
-# 3. Submit samples
+## 3. Submit samples
 Use the following command to submits samples:
 ```
 $ cuckoo submit --package ps1 --machine windows10_x64 --platform windows --timeout 120 --memory  /dir/to/samples
 ```
-# 4. Copy report log
+## 4. Copy report log
 Following is an example of an analysis directory structure:
 ```
 .
@@ -159,17 +159,17 @@ Following is an example of an analysis directory structure:
 ```
 Then copy `REPORT_DIR/reports/report.json` to a new directory named **reports**.
 
-# 5. deploying corpus generator environment
+## 5. deploying corpus generator environment
 1. Make sure that the Python version is greater than or equal to Python 3.6.
 2. Download **corpus.py**, and make a new directory named **corpus**.
 3. Copy **reports** to current directory.
 4. The **corpus** and **reports** on git are the test dataset.
 
-# 6. generate corpus
+## 6. generate corpus
 Run the following shell:
 ```
 python3 corpus.py
 ```
-# 7. check corpus
+## 7. check corpus
 When step 2 is completed, the corpus files are automatically generated in the corpus directory, each in the format `[original filename].txt`.
 
