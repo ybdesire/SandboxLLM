@@ -1,7 +1,8 @@
 # SandboxLLM
 Leveraging the LLM (Large Language Model) with Sandbox technology by SFT (supervised fine tuning) and RAG (Retrieval Augmented Generation) to deliver software analysis reasoning capabilities along with precise Natural Language Processing (NLP) query results.
 
-please refer to here for the demo code and output : [sandboxllm_rag_workflow_demo](llm/sandboxllm_rag_workflow_demo.ipynb)
+Demo : please refer to below [images](https://github.com/ybdesire/SandboxLLM/tree/main?tab=readme-ov-file#sample-analysis-examples) or the demo code (by langchain,milvus,bge-m3)  : [sandboxllm_rag_workflow_demo](llm/sandboxllm_rag_workflow_demo.ipynb)
+
 
 # Architecture
 
