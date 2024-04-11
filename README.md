@@ -55,7 +55,7 @@ E. Malicious code analysis by LLM
 # License
 This repository is licensed under the MIT License.
 
-Please follow other model/project licenses to use the corresponding model weights and other open source project : [ChatGLM3](https://github.com/THUDM/ChatGLM3/blob/main/LICENSE), [Qwen](https://github.com/QwenLM/Qwen/blob/main/Tongyi%20Qianwen%20LICENSE%20AGREEMENT), [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
+Please follow other model/project licenses to use the corresponding model weights and other open source project : [ChatGLM3](https://github.com/THUDM/ChatGLM3/blob/main/LICENSE), [Qwen](https://github.com/QwenLM/Qwen/blob/main/Tongyi%20Qianwen%20LICENSE%20AGREEMENT), [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), [FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding/blob/master/LICENSE)
 
 
 
