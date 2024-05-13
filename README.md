@@ -49,7 +49,9 @@ E. Malicious code analysis by LLM
 1. Q&A accuracy by LLM RAG: 95.08%
 - [here](https://github.com/ybdesire/SandboxLLM/blob/main/sandbox/readme.md#question--answer-test) for more details about the evaluation code and result
 
-2. LLM Predict accuracy : TBD
+2. LLM Predict accuracy
+   - chatglm3-6b: 82%
+   - Qwen1.5-110B-INT4: 97%
 
 
 # License
