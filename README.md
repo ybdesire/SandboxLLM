@@ -3,6 +3,19 @@ Leveraging the LLM (Large Language Model) with Sandbox technology by SFT (superv
 
 Demo : please refer to below [images](https://github.com/ybdesire/SandboxLLM/tree/main?tab=readme-ov-file#sample-analysis-examples) or the demo code (by langchain,milvus,bge-m3)  : [sandboxllm_rag_workflow_demo](llm/sandboxllm_rag_workflow_demo.ipynb)
 
+# Supported Intel hardware and software
+
+1. OpenVino
+
+![image](https://github.com/ybdesire/SandboxLLM/assets/5146225/d13099b8-0277-4424-b5e4-1cc4dab4f778)
+
+
+2. hardware : AI PC
+
+3. code example to build api for intel OpenVino
+- server side code : https://github.com/ybdesire/SandboxLLM/blob/main/llm/openvino/apiserver.py
+- client side code : https://github.com/ybdesire/SandboxLLM/blob/main/llm/openvino/client_openai_api.py 
+
 
 # Architecture
 
